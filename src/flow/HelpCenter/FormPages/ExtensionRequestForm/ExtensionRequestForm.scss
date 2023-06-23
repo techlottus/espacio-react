@@ -1,0 +1,34 @@
+@import "../../../../App.scss";
+
+.extensionformcontent {
+
+    .titleextensionform {
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(16px);
+        margin: pixeltorem(19px) 0 pixeltorem(24px);
+    }
+
+    .checkboxextensionform {
+        margin-bottom: pixeltorem(32px);
+
+        .checkbox{
+            margin-bottom: pixeltorem(8px);
+        }
+    }
+
+    .inputextensionform {
+        margin-bottom: pixeltorem(16px);
+    }
+
+    .descriptionupload {
+        margin: pixeltorem(8px) 0 pixeltorem(24px);
+    }
+
+    .btnextensionform {
+        margin-top: pixeltorem(42px);
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            display: flex;
+            justify-content: center;
+          }
+    }
+}

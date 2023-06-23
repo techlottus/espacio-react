@@ -1,0 +1,32 @@
+@import '../../App.scss';
+
+.noti-container {
+  background-color: greenyellow;
+  //position: fixed;
+  //height: 1000vh;
+  //width: 100vw;
+  z-index: 19;
+  //top: 0;
+}
+
+.notiitems {
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 32px);
+  //height: calc(100vh - 56px);
+  z-index: 19;
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 0 pixeltorem(16px);
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: calc(40% - 32px);
+    margin: 0 pixeltorem(36px);
+  }
+
+  .notiitem {
+    width: 100%;
+    height: 56px;
+    margin-bottom: pixeltorem(16px);
+  }
+  
+}

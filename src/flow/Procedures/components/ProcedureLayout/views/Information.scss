@@ -1,0 +1,59 @@
+@import "../../../../../App.scss";
+
+.info-view {
+  font-family: "Nunito",sans-serif;
+  padding: pixeltorem(38px) pixeltorem(35px) 0 pixeltorem(35px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    padding: pixeltorem(38px) pixeltorem(35px) 0 pixeltorem(35px);
+  }
+
+  .info-title {
+    padding: pixeltorem(24px) 0;
+    h2 {
+      font-style: normal;
+      font-weight: bold;
+      font-size: pixeltorem(24px);
+      line-height: pixeltorem(30px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(36px);
+        line-height: pixeltorem(42px);
+      }
+    }
+  }
+
+  .info-text {
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-bottom: pixeltorem(24px);
+    }
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: pixeltorem(14px);
+        line-height: pixeltorem(19px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(16px);
+        line-height: pixeltorem(22px);
+      }
+    }
+  }
+
+  .info-price {
+      padding-bottom: pixeltorem(48px);
+      padding-top: pixeltorem(24px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-top:0;
+      }
+    p {
+        font-style: normal;
+        font-weight: bold;        
+        font-size: pixeltorem(24px);
+        line-height: pixeltorem(30px);
+    }
+  }
+
+  .info-btn {
+    margin-top: pixeltorem(-24px);
+    padding-bottom: pixeltorem(48px);
+  }
+}

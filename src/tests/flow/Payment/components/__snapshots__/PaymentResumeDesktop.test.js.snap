@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PaymentResumeDesktop/> should init component 1`] = `
+<div
+  className="paymentresumedesktopconcept"
+>
+  <p
+    className="paymentresumetitle"
+  />
+  <div
+    className="paymentresumetcard"
+  >
+    <lottus-card-resume />
+  </div>
+  <div
+    className="paymentresumetotal"
+  >
+    <div
+      className="paymenttotalprice"
+    >
+      <div
+        className="paymenttotalpricetitle"
+      />
+      <div
+        className="paymenttotalpriceunit"
+      />
+    </div>
+  </div>
+  <div
+    className="paymentresumetaction"
+  >
+    <lottus-button />
+  </div>
+</div>
+`;

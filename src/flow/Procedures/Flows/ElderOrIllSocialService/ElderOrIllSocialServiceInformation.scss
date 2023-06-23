@@ -1,0 +1,46 @@
+@import '../../../../App.scss';
+
+.elderorillprofile {
+  width: 100%;
+  margin-top: pixeltorem(22px);
+}
+
+.elderorillinfonumber {
+  margin-top: pixeltorem(32px);
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: pixeltorem(16px);
+
+  .elderorillinfonumbertitle {
+    margin-bottom: pixeltorem(16px);
+  }
+}
+
+.elderorillitem {
+    width: 100%;
+    margin-bottom: pixeltorem(16px);
+}
+
+.elderorillbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .elderorillbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .elderorillbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+}

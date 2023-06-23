@@ -1,0 +1,91 @@
+@import "../../../../App.scss";
+
+.main-procedures-container {
+  padding: pixeltorem(92px) pixeltorem(5px) pixeltorem(30px) pixeltorem(5px);
+  margin: 0 pixeltorem(15px);
+  font-family: "Nunito", sans-serif;
+  @extend .headerapp-top;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: pixeltorem(36px) pixeltorem(35px) 0 pixeltorem(60px);
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, l)) {
+    margin-top: pixeltorem(56px);
+  }
+
+  .procedures-title {
+    font-size: pixeltorem(24px);
+    font-weight: bold;
+    padding-top: pixeltorem(20px);
+    line-height: pixeltorem(30px);
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-top: pixeltorem(36px);
+      font-size: pixeltorem(36px);
+      line-height: pixeltorem(42px);
+    }
+  }
+
+  .procedures-btns {
+    display: block;
+    margin-top: pixeltorem(64px);
+    .procedures-btn {
+      padding-top: pixeltorem(16px);
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .mainprocedurestitle {
+    margin-top: pixeltorem(32px);
+    font-size: pixeltorem(18px);
+    line-height: pixeltorem(24px);
+  }
+
+  .maincardprocedures {
+    display: flex;
+    flex-wrap: wrap; 
+
+    lottus-card-icon {
+      .cardicon-container {
+        height: inherit;
+      }
+    }
+
+    .maincardprocedure {
+      flex: 0 0 100%;
+      width: 100%;
+      margin-top: pixeltorem(20px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        flex: 0 0 calc(33.333% - #{pixeltorem(36px)});
+       margin: 0 pixeltorem(18px);
+       margin-top: pixeltorem(48px);
+
+       &:first-child,&:nth-child(4n) {
+         margin-left: 0;
+         flex: 0 0 calc(33.333% - #{pixeltorem(18px)})
+       }
+
+       &:nth-child(3n) {
+         margin-right: 0;
+         flex: 0 0 calc(33.333% - #{pixeltorem(18px)})
+       }
+      }
+    }
+
+    
+  }
+}
+
+.modaldegreecheck {
+  .textdegreecheck {
+    margin-top: pixeltorem(16px);
+  }
+
+  .docdegreecheck {
+    display: flex;
+    flex-direction: column;
+  }
+}

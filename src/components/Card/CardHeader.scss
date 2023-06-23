@@ -1,0 +1,72 @@
+@import "../../App.scss";
+
+.cardheadercontainer {
+    background: map-get($palette-neutral, n05);
+    height: pixeltorem(125px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    // width: 100%;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: calc(100% - #{pixeltorem(96px)});
+      margin: 0 pixeltorem(48px);
+      height: pixeltorem(205px);
+      border-radius: pixeltorem(8px);
+    }
+
+     > .cardheadercontent {
+        padding-left: 4%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        
+        
+        > .cardheadergreeting {
+            font-size:pixeltorem(24px);
+            font-family: 'Bebas', sans-serif;
+            color: map-get($palette-neutral, n80);
+
+            @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+              font-size:pixeltorem(56px);
+            }
+        }
+
+        .cardheaderenroll {
+          font-size:pixeltorem(14px);
+          font-family: 'Nunito', sans-serif;
+          color: palette-colors($brand, p00);
+          line-height: normal;
+
+          @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            font-size:pixeltorem(24px);
+          }
+      }
+
+        .cardheaderquote {
+            font-size:pixeltorem(12px);
+            font-family: 'Nunito', sans-serif;
+            color: map-get($palette-neutral, n80);
+
+            @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+              font-size:pixeltorem(24px);
+              width: 80%;
+            }
+        }
+    }
+
+    .cardheaderpicture {
+        max-width: 100%;
+        height: 100%;
+        position: absolute;
+         right: -50%;
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          width: 50%;
+          height: 100%;
+          right: -1%;
+        }
+    }
+}  

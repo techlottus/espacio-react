@@ -1,0 +1,20 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-subjects {
+  @extend .modal-container;
+  .modalbody {
+    
+    .modalbtns {
+      @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+        float: right;
+      }
+    }
+
+    .contentfeedbacksubjects {
+      font-family: "Nunito", sans-serif;
+      font-size: pixeltorem(16px);
+      line-height: pixeltorem(24px);
+    }
+  }
+}

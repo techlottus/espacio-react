@@ -1,0 +1,57 @@
+@import "../../App.scss";
+
+.containerevaluateservices {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  width: 100%;
+  @extend .headerapp-top;
+  padding: pixeltorem(10px) 0 0 pixeltorem(16px);
+  
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    padding: pixeltorem(20px) 0 0 pixeltorem(48px);
+  }
+
+  .breadcrumbevaluateservices {
+    width: calc(100% - #{pixeltorem(32px)});
+    margin-top: pixeltorem(36px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
+    .contentevaluateservices {
+      padding: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding: pixeltorem(36px) pixeltorem(48px) pixeltorem(48px);
+      }
+
+  .wrappertitle {
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(24px);
+        padding: pixeltorem(8px) 0 pixeltorem(24px);
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          font-size: pixeltorem(36px);
+          padding-bottom: pixeltorem(48px);
+        }
+      }
+
+    .cardevaluateservices {
+        cursor: pointer;
+        
+      .cardwrapper {
+        padding-bottom: pixeltorem(16px);
+      }
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: grid;
+        grid-template-areas: "card card card";
+        column-gap: pixeltorem(28px);
+        row-gap: pixeltorem(28px);
+        justify-content: space-around;
+      }
+    }
+}
+

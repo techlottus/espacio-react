@@ -1,0 +1,5 @@
+@import "../Screen.scss";
+
+.empty-payment {
+  @extend .empty-container;
+}

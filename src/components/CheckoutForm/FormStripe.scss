@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+.formbtns {
+  padding-top: pixeltorem(36px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+    justify-content: right;
+    flex-flow: row-reverse;
+    padding-top: pixeltorem(16px);
+  }
+  .formbtn {
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-top: pixeltorem(10px);
+    }
+    &:first-child {
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-left: pixeltorem(10px);
+      }
+    }
+
+    &:last-child {
+      padding-top: pixeltorem(10px);
+
+    }
+  }
+}

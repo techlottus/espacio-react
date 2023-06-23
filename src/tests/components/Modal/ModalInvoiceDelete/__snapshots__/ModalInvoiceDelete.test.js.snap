@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ModalInvoiceDelete/> should init component 1`] = `
+<div
+  className="modal-invoice-delete"
+>
+  <div
+    className="modalcontent"
+  >
+    <div
+      className="modalheader"
+    >
+      <div
+        className="title"
+      />
+    </div>
+    <div
+      className="modalbody"
+    >
+      <div
+        className="modalbtns"
+      >
+        <div
+          className="btnsecundary"
+        >
+          <lottus-button />
+        </div>
+        <div
+          className="btnprimary"
+        >
+          <lottus-button />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

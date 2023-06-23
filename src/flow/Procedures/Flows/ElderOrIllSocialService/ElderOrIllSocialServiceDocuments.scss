@@ -1,0 +1,68 @@
+@import '../../../../App.scss';
+
+.elderorillfile-content {
+  margin-top: pixeltorem(32px);
+  margin-bottom: pixeltorem(36px);
+  font-family: "Nunito", sans-serif;
+  font-size: pixeltorem(16px);
+
+  .elderorilldocsmax {
+    font-family: 'Nunito',sans-serif;
+    font-size: pixeltorem(16px);
+    line-height: pixeltorem(21px);
+    margin-top: pixeltorem(32px);
+    width: 100%;
+    margin-bottom: pixeltorem(16px);
+  }
+
+  .elderorilllink {
+    padding-bottom: pixeltorem(32px);
+  }
+  .elderorillupload {
+    p {
+      font-family: 'Nunito Bold',sans-serif;
+      padding: pixeltorem(16px) 0;
+    }
+  }
+  .elderorillnotice {
+    width: 100%;
+    margin: pixeltorem(16px) 0;
+  
+    .elderorillnoticelink {
+      padding: 0 pixeltorem(4px);
+      font-family: 'Nunito Bold',sans-serif;
+      text-decoration: underline;
+      color: palette-colors($brand, p00);
+      cursor: pointer;
+    }
+  }
+
+  .elderorilluploadtext {
+    font-family: "Nunito Bold", sans-serif;
+    margin: pixeltorem(32px) 0 pixeltorem(16px) 0;
+  }
+}
+
+.elderorilldocbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .elderorilldocbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .elderorilldocbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+}

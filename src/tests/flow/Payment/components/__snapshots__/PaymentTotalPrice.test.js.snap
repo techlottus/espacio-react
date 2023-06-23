@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PaymentTotalPrice/> should init component 1`] = `
+<div
+  className="paymenttotalprice"
+>
+  <div
+    className="paymenttotalpricetitle"
+  />
+  <div
+    className="paymenttotalpriceunit"
+  />
+</div>
+`;

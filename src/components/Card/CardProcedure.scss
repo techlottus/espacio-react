@@ -1,0 +1,20 @@
+@import '../../App.scss';
+
+.container-content {
+  font-family: "Nunito", sans-serif;
+
+  .text {
+      padding-bottom: pixeltorem(31px);
+    p {
+      font-size: pixeltorem(14px);
+      line-height: pixeltorem(19px);
+    }
+  }
+  .price {
+    p {
+      font-weight: bold;
+      font-size: pixeltorem(16px);
+      line-height: pixeltorem(22px);
+    }
+  }
+}

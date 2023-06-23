@@ -1,0 +1,53 @@
+@import '../../../App.scss';
+
+.content-container {
+  position: relative;
+  margin: 0 pixeltorem(16px);
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-flow: row wrap;
+  height: 100%;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: 0 pixeltorem(48px);
+  }
+  
+  .carouselnews , .cardstitle {
+    font-size: pixeltorem(18px);
+    font-weight: 700;
+    padding-bottom: pixeltorem(30px);
+  }
+
+  > .contentcarousel {
+    padding: pixeltorem(48px) 0 0 0;
+    flex: 0 0 100%;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      flex: 0 0 66.6666%;
+    }
+
+    .carousel {
+      width: 100%;
+      cursor: pointer;
+    }
+  }
+
+  > .contentcards {
+    padding: pixeltorem(48px) 0 0 0;
+    flex: 0 0 100%;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      flex: 0 0 calc(33.333% - #{pixeltorem(24px)});
+      padding-left: pixeltorem(16px);
+    }
+  }
+}
+
+lottus-carousel {
+  div.carrusel-container {
+     height: 180px !important;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      height: 338px !important;
+    }
+  }
+}

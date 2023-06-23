@@ -1,0 +1,72 @@
+@import "../../../../App.scss";
+
+.dashboardhelpcentercontainer {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  width: 100%;
+  @extend .headerapp-top;
+
+  .dashboardhelpcentercontent {
+    padding: pixeltorem(37px) pixeltorem(19px) pixeltorem(48px) pixeltorem(19px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: pixeltorem(36px) 0 pixeltorem(48px) pixeltorem(48px);
+    }
+
+    .dashboardhelpcentertitle {
+      font-style: normal;
+      font-weight: bold;
+      font-size: pixeltorem(24px);
+      display: flex;
+      justify-content: center;
+      padding: pixeltorem(20px) 0 pixeltorem(36px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(36px);
+        padding: pixeltorem(77px) 0 pixeltorem(48px);
+      }
+    }
+
+    .dashboardhelpcentersearch {
+      width: 100%;
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 50%;
+        margin: auto;
+      }
+    }
+  }
+  .dashboardhelpcenterwrapper {
+    margin: pixeltorem(40px) pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      margin: pixeltorem(60px) pixeltorem(48px);
+    }
+
+    .dashboardhelpcentercards {
+      .cardwrapper {
+        padding-bottom: pixeltorem(24px);
+      }
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: grid;
+        grid-template-areas: "card card card";
+        column-gap: pixeltorem(24px);
+        row-gap: pixeltorem(16px);
+      }
+    }
+
+    .dashboardhelpcenterbtn {
+      display: none;
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: block;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+        padding-right: pixeltorem(45px);
+        padding-top: pixeltorem(35px);
+      }
+    }
+  }
+}

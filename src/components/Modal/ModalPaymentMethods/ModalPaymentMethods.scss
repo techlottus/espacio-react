@@ -1,0 +1,141 @@
+@import '../../../App.scss';
+@import '../Modal.scss';
+
+.modal-payment {
+  @extend .modal-container;
+
+  .paymenttext {
+    font-family: 'Nunito', sans-serif;
+    font-size: pixeltorem(16px);
+  }
+
+  .paymentchargeswrapper {
+    margin-top: pixeltorem(20px);
+    padding: pixeltorem(16px);
+    width: calc(100% - #{pixeltorem(32px)});
+    border: 1px solid map-get($palette-neutral, n10);
+    border-radius: pixeltorem(8px);
+
+    .paymentchargetitle {
+      font-family: 'Nunito Bold';
+      font-size: pixeltorem(18px);
+      margin-bottom: pixeltorem(8px);
+    }
+
+    .paymentchargesubtitle {
+      font-size: pixeltorem(14px);
+      display: flex;
+      align-items: center;
+      margin-bottom: pixeltorem(24px);
+
+      .icon {
+        color: palette-colors($brand, p00);
+        padding-right: pixeltorem(16px);
+      }
+    }
+
+    .paymentchargeoption {
+      position: relative;
+      display: flex;
+      align-items: center;
+      padding-left: pixeltorem(8px);
+      margin-bottom: pixeltorem(16px);
+
+      .paymentchargeoptiontext {
+        font-size: pixeltorem(14px);
+        margin-top: pixeltorem(16px);
+      }
+
+      .paymentchargeoptionprice {
+        position: absolute;
+        right: 0;
+        font-size: pixeltorem(16px);
+        margin-top: pixeltorem(16px);
+      }
+
+    }
+
+    .paymentchargeoptionline {
+      border-top: 1px solid map-get($palette-neutral, n10);
+    }
+
+
+    .paymentchargecheck {
+      position: relative;
+      width: pixeltorem(32px);
+      height: pixeltorem(28px);
+
+      label {
+        position: absolute;
+        top: pixeltorem(12px);
+        right: pixeltorem(12px);
+        background-color: map-get($palette-neutral, n00);
+        border: 1px solid map-get($palette-neutral, n90);
+        border-radius: 50%;
+        cursor: pointer;
+        height: pixeltorem(24px);
+        width: pixeltorem(24px);
+      }
+
+      input[type="checkbox"] {
+        visibility: hidden;
+      }
+
+      input[type="checkbox"]:checked + label {
+        border: 8px solid palette-colors($brand, p00);
+        height: calc(#{pixeltorem(24px)} - #{pixeltorem(16px)});
+        width: calc(#{pixeltorem(24px)} - #{pixeltorem(16px)});
+      }
+    }
+
+  .paymenttext {
+    font-family: 'Nunito', sans-serif;
+    font-size: pixeltorem(16px);
+    margin-bottom: pixeltorem(16px);
+  }
+}
+
+  .modalbtnsother {
+    margin-top: pixeltorem(24px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      flex-direction: row;
+      float: right;
+    }
+
+    .btn1 {
+      width: 100%;
+      margin-bottom: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-right: pixeltorem(16px);
+        margin-bottom: 0;
+      }
+    }
+
+    .btn2 {
+      width: 100%;
+
+    }
+  }
+
+  .modaltextinvoice {
+    margin-bottom: pixeltorem(16px);  
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .modaltextstickinvoice {
+    font-size: pixeltorem(12px);
+    line-height: pixeltorem(16px);
+    font-family: 'Nunito', sans-serif;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      font-size: pixeltorem(14px);
+      
+    }
+  }
+
+}

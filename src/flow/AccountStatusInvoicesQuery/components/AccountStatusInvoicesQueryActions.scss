@@ -1,0 +1,32 @@
+@import "../../../App.scss";
+
+.invoicequeryaction-container {
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: pixeltorem(24px);
+  }
+
+  .invoicequeryselect {
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .invoicequeryitem {
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-right: pixeltorem(24px);
+      }
+    }
+  }
+
+  .clearbtn {
+    margin-top: pixeltorem(24px);
+  }
+
+  .downloadbtn {
+    margin: pixeltorem(24px) 0;
+  }
+}

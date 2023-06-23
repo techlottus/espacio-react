@@ -1,0 +1,78 @@
+@import "../../../../App.scss";
+
+.searchresults-container {
+  width: 100%;
+  font-family: 'Nunito',sans-serif;
+  @extend .headerapp-top;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    
+  }
+
+  .headsearchresults {
+    width: calc(100% - #{pixeltorem(32px)});
+    padding: 0 pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: 0;
+      margin-bottom: pixeltorem(32px);
+    }
+
+    .breadcrumbsearchresults {
+      width: 100%;
+      padding-top: pixeltorem(37px);
+      padding-bottom: pixeltorem(20px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 50%;
+        margin: auto;
+      }
+    }
+
+    .titlesearchresults {
+      width: 100%;
+      padding-bottom: pixeltorem(36px);
+      font-family: 'Nunito Bold',sans-serif;
+      font-size: pixeltorem(24px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 50%;
+        margin: auto;
+      }
+    }
+
+    .inputsearchresults {
+      width: 100%;
+      padding-bottom: pixeltorem(36px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 50%;
+        margin: auto;
+      }
+      
+    }
+  }
+
+  .contentsearchresults {
+    width: calc(100% - #{pixeltorem(32px)});
+    padding: 0 pixeltorem(16px);
+    margin-bottom: pixeltorem(36px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 50%;
+      margin: auto;
+      margin-bottom: pixeltorem(32px);
+    }
+
+    .tabssearchresults {
+      padding-bottom: pixeltorem(24px);
+    }
+
+    .selectsearchresults {
+      width: 100%;
+    }
+
+    .cardsearchresults {
+      padding-bottom: pixeltorem(16px);
+    }
+  }
+  
+  
+}

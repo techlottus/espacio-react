@@ -1,0 +1,17 @@
+@import '../../App.scss';
+
+.dashboard-container {
+  width: 100%;
+  @extend .headerapp-top;
+  @extend .footer-bottom;
+
+  .dashboardsuccess {
+    width: 100%;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-top: pixeltorem(48px);
+    }
+  }
+}
+
+

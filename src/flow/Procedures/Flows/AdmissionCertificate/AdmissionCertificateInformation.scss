@@ -1,0 +1,58 @@
+@import "../../../../App.scss";
+
+.admissioncinfocontainer {
+  font-family: "Nunito", sans-serif;
+  margin-top: pixeltorem(22px);
+  .forminformationadmissioncertificate {
+    .admissioncertificateprofile {
+      margin-top: pixeltorem(32px);
+    }
+    .admissioncertificateinfonumber {
+      margin-top: pixeltorem(32px);
+      p {
+        font-size: 14px;
+        line-height: 19px;
+      }
+      .admissioncertificateitem {
+        padding-bottom: pixeltorem(32px);
+
+        .admissioncertificateselects {
+          @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            display: flex;
+            width: 100%;
+            .admissionselect:first-child {
+              padding-right: pixeltorem(24px);
+            }
+          }
+        }
+      }
+    }
+  }
+  .admissioncertificateupload {
+    .admissioncertificateinfouploadtitle {
+      padding-bottom: pixeltorem(36px);
+    }
+    .admissioncertificateuploadinput {
+      padding-bottom: pixeltorem(52px);
+    }
+  }
+  .admissioncertificatebtns {
+    margin-top: pixeltorem(48px);
+    margin-bottom: pixeltorem(120px);
+    width: 100%;
+    .academicbtn {
+      height: 100%;
+      &:first-child {
+        padding-bottom: pixeltorem(10px);
+      }
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      .academicbtn {
+        &:first-child {
+          padding: 0 pixeltorem(15px) 0 0;
+        }
+      }
+    }
+  }
+}

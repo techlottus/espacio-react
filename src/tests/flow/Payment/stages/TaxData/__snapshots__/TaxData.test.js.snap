@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TaxData/> should init component 1`] = `
+<div
+  className="taxdata"
+>
+  Array [
+    <div
+      className="listtax"
+    >
+      <div>
+        <p
+          className="listtaxtitle"
+        />
+        <div
+          className="listtaxcards"
+        />
+        <div
+          className="listtaxlink"
+        >
+          <lottus-link />
+        </div>
+      </div>
+      <div
+        className="listtaxactions"
+      >
+        <div
+          className="listtaxaction"
+        >
+          <lottus-button />
+        </div>
+        <div
+          className="listtaxaction"
+        >
+          <lottus-button />
+        </div>
+      </div>
+    </div>,
+    "",
+  ]
+</div>
+`;

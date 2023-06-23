@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Terms/> should init component 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <lottus-navbar />
+  </div>,
+  <div
+    className="terms-view"
+  >
+    <div
+      className="desktop-container"
+    >
+      <div
+        className="termscontent"
+      >
+        <div
+          className="terms-container"
+        >
+          <h2
+            className="termsbtns-title"
+          />
+          <p
+            className="termsbtns-text"
+          />
+          <div
+            className="buttons"
+          >
+            <div
+              className="button-wrap"
+            >
+              <lottus-button />
+            </div>
+            <div
+              className="button-wrap second-btn"
+            >
+              <lottus-button />
+            </div>
+          </div>
+          <div
+            className="newsletter-wrap"
+          >
+            <lottus-toogle-switch />
+            <p
+              className="termsbtns-text"
+            />
+          </div>
+          <div
+            className="progress-bar"
+          >
+            <lottus-progress-bar />
+          </div>
+          <div
+            className="send-btn"
+          >
+            <lottus-button />
+          </div>
+        </div>
+      </div>
+      <div
+        className="termsprivacywrap"
+      >
+        <div
+          className="welcome-container"
+        >
+          <div
+            className="title-container"
+          >
+            <h2
+              className="welcome-title"
+            />
+          </div>
+          <div
+            className="img-container"
+          >
+            <img
+              alt="logo-notebook"
+              className="img-notebook"
+              src="images/Terms/terms.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

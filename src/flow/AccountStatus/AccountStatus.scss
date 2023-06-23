@@ -1,0 +1,75 @@
+@import '../../App.scss';
+
+.accountstatus-container {
+  position: relative;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-color: map-get($palette-neutral, n05);
+  color: map-get($palette-neutral, n80);
+  @extend .headerapp-top;
+  @extend .footer-bottom;
+
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: 46%;
+    padding: 0 27%;
+    background-color: transparent;
+  }
+
+  > .accountstatusbackground {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    width: 100%;
+    height: pixeltorem(277px);
+    background-color: map-get($palette-neutral, n05);
+    display: none;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: block;
+    }
+  }
+
+  > .accountstatusbreadcrumb {
+    width: calc(100% - #{pixeltorem(32px)});
+    margin-top: pixeltorem(36px);
+    padding: 0 pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .accountstatustitle {
+    width: calc(100% - #{pixeltorem(32px)});
+    margin-top: pixeltorem(40px);
+    font-size: pixeltorem(24px);
+    line-height: pixeltorem(30px);
+    font-family: 'Nunito Bold',sans-serif;
+    padding: 0 pixeltorem(16px);
+    margin-bottom: pixeltorem(20px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  > .accountstatuscontent {
+    box-shadow: 0 pixeltorem(20px) pixeltorem(60px) rgba(0, 0, 0, 0.15);
+    width: 100%;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      margin-bottom: pixeltorem(48px);
+      border-radius: pixeltorem(8px);
+    }
+  }
+}
+
+.feedbackAccount {
+  @extend .alertfeedbackcmp; 
+
+}

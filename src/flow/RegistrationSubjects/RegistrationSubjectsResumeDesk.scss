@@ -1,0 +1,47 @@
+@import '../../App.scss';
+
+.registrationsubjectsresumedesk {
+  width: calc(100% - #{pixeltorem(100px)});
+  margin: pixeltorem(36px) 0 0 pixeltorem(24px);
+  padding: pixeltorem(16px);
+
+  &.-ismobile {
+    width: calc(100% - #{pixeltorem(16px)});
+    padding: pixeltorem(8px);
+    margin: 0;
+  }
+
+  .registrationsubjectsresumetitle {
+    font-family: 'Nunito Bold', sans-serif;
+    margin-bottom: pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      font-size: pixeltorem(36px);
+      margin-bottom: pixeltorem(26px);
+    }
+  }
+
+  .registrationsubjectscards {
+    width: 100%;
+    margin-bottom: pixeltorem(20px);
+  }
+
+  .registrationsubjectscardtext {
+    margin-bottom: pixeltorem(20px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: pixeltorem(16px);
+      border-radius: pixeltorem(8px);
+      border: 1px solid #CDCDCD;
+    }
+  }
+
+  .registrationsubjectsconfirmbtn {
+    font-size: pixeltorem(14px);
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: max-content;
+    }
+  }
+
+}
+

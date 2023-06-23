@@ -1,0 +1,153 @@
+@import "../../../App.scss";
+
+.terms-page{
+
+  .terms-page-container {
+    padding: pixeltorem(90px) pixeltorem(5px) 0  pixeltorem(5px);
+    margin: 0 pixeltorem(15px);
+    font-family: "Nunito", sans-serif; 
+
+    @extend .fixedcontainer-height;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      margin: 0 pixeltorem(35px) 0 pixeltorem(60px);
+      font-family: "Nunito", sans-serif;
+      padding-top: pixeltorem(45px);
+      height: 100%;
+    }
+
+    .terms-arrow {
+      display: block;
+      padding-bottom: pixeltorem(20px);
+      color: palette-colors($brand, p00);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: none; 
+      }
+    }
+  
+    .terms-content {
+      max-height: pixeltorem(320px);
+      padding-right: pixeltorem(40px);
+      overflow-y: scroll;
+      > .termshow-title {
+        font-family: 'Bebas',sans-serif;
+        font-size: pixeltorem(24px);
+        padding-bottom: pixeltorem(16px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          font-size: pixeltorem(56px);
+        }
+      }
+      .terms-map {
+        > .termshow-subtitle {
+          padding: pixeltorem(5px) 0;
+          font-size: pixeltorem(16px);
+          font-weight: 700;
+        }
+  
+        .termshow-texts{
+           > .termshow-text {
+            font-size: pixeltorem(12px);
+            padding: pixeltorem(10px) 0;
+          }
+    
+          > .termshow-ul {
+            .termshow-li {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+    
+              &::before {
+                content: "\2022";
+                color: map-get($palette-neutral, n80);
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: 1em;
+              }
+            }
+          }
+          > .termshow {
+            padding: pixeltorem(5px) 0;
+            font-size: pixeltorem(12px);  
+          }
+          .termshow-ol-number {
+            .termshow-li-number {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+              list-style-type: auto;
+              margin-left: 4em;
+            }
+          }
+           .termshow-ol-upperroman {
+            .termshow-li-upperroman {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+              list-style-type: upper-roman;
+              margin-left: 5em;
+            }
+          }
+          .termshow-ul-circle {
+            .termshow-li-circle {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+              list-style-type: circle;
+              margin-left: 5em;
+            }
+          }
+          .termshow-ul-square {
+            .termshow-li-square {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+              list-style-type: square;
+              margin-left: 5em;
+            }
+          }
+          .termshow-ul-guion {
+            .termshow-li-guion {
+              padding: pixeltorem(5px) 0;
+              font-size: pixeltorem(12px);
+              margin-left: 3em;
+
+              &::before {
+                content: "-";
+                margin-right: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    .terms-feed {
+      padding-top: pixeltorem(20px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-top: pixeltorem(60px);
+      }
+    }
+  
+    .terms-btns {
+      padding: pixeltorem(20px) 0;
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .button-wrap {
+        padding: pixeltorem(8px) 0;
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          padding: 0 pixeltorem(10px);
+        }
+
+        button{
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@import '../../../App.scss';
+
+.securepayment {
+  width: 100%;
+  font-family: 'Nunito',sans-serif;
+  border-top: pixeltorem(1px) solid map-get($palette-neutral, n20);
+
+  .secureimgpayment {
+    width: 100%;
+    margin-bottom: pixeltorem(8px);
+    margin-top: pixeltorem(8px);
+
+    img {
+      width: pixeltorem(18px);
+      height: pixeltorem(22px);
+    }
+  }
+
+  .securetitlepayment {
+    font-family: 'Nunito Bold',sans-serif;
+    font-size: pixeltorem(16px);
+    margin-bottom: pixeltorem(8px);
+  }
+
+  .securedescriptionpayment {
+    font-size: pixeltorem(12px);
+    margin-bottom: pixeltorem(8px);
+  }
+
+  .securefooterpayment {
+    width: 100%;
+    display: flex;
+
+    .secureitempayment {
+      width: pixeltorem(42px);
+      height: pixeltorem(32px);
+      margin-right: pixeltorem(8px);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

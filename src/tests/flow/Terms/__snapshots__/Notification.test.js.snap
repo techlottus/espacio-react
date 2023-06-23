@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Notification/> init component 1`] = `
+<div
+  className="notification-container"
+>
+  <div
+    className="side -normal"
+  >
+    <span
+      className="material-icons icons"
+    >
+      person
+    </span>
+  </div>
+  <div
+    className="content"
+  >
+    <p
+      className="content-text null"
+    >
+      Hola1w
+    </p>
+  </div>
+  <div
+    className="side"
+  />
+</div>
+`;

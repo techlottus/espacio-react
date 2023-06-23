@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Accordion /> data returns null 1`] = `<lottus-accordion />`;
+
+exports[`Test <Accordion /> should init component 1`] = `<lottus-accordion />`;

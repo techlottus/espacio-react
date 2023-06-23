@@ -1,0 +1,211 @@
+@import "../../../../App.scss";
+
+.confirmhelpcentercontainer {
+  padding: pixeltorem(92px) pixeltorem(5px) pixeltorem(50px) pixeltorem(5px);
+  margin: 0 pixeltorem(15px);
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  @extend .headerapp-top;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: pixeltorem(36px) pixeltorem(35px) 0 pixeltorem(60px);
+  }
+  @media only screen and (min-width: map-get($grid-breakpoints, l)) {
+    margin-top: pixeltorem(56px);
+  }
+
+  .confirmhelpcentercontent {
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: pixeltorem(480px);
+      background-color: map-get($palette-neutral, n00);
+      padding: pixeltorem(39px) pixeltorem(24px);
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      position: relative;
+      border-radius: pixeltorem(16px) pixeltorem(16px) pixeltorem(5px) pixeltorem(5px);
+      box-shadow: 0 pixeltorem(20px) pixeltorem(60px) map-get($palette-overlay, ev-15);
+
+      .spikewrapper {
+        bottom: pixeltorem(-17px);
+        position: absolute;
+        left: pixeltorem(-5px);
+        width: 0;
+        height: 0;
+        border-right: pixeltorem(21px) solid transparent;
+        border-left: pixeltorem(21px) solid transparent;
+        border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+        transform: scaleY(-1);
+        margin: 0 pixeltorem(10px);
+
+        > span:nth-child(1) {
+          position: absolute;
+          left: pixeltorem(25px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+        }
+  
+        > span:nth-child(2) {
+          position: absolute;
+          left: pixeltorem(69px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(3px);
+        }
+  
+        > span:nth-child(3) {
+          position: absolute;
+          left: pixeltorem(114px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(4) {
+          position: absolute;
+          left: pixeltorem(161px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(5) {
+          position: absolute;
+          left: pixeltorem(209px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(6) {
+          position: absolute;
+          left: pixeltorem(257px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(7) {
+          position: absolute;
+          left: pixeltorem(305px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(8) {
+          position: absolute;
+          left: pixeltorem(354px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+  
+        > span:nth-child(9) {
+          position: absolute;
+          left: pixeltorem(401px);
+          width: 0;
+          height: 0;
+          border-right: pixeltorem(21px) solid transparent;
+          border-left: pixeltorem(21px) solid transparent;
+          border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+          margin: 0 pixeltorem(5px);
+        }
+
+        > span:nth-child(10) {
+            position: absolute;
+            left: pixeltorem(450px);
+            width: 0;
+            height: 0;
+            border-right: pixeltorem(21px) solid transparent;
+            border-left: pixeltorem(21px) solid transparent;
+            border-bottom: pixeltorem(22px) solid map-get($palette-neutral, n00);
+            margin: 0 pixeltorem(5px);
+        }
+      }
+    }
+
+    .confirmhelpcenterwrapper {
+        margin: pixeltorem(16px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin: pixeltorem(24px);
+          }
+
+    .confirmhelpcentericon {
+        margin-bottom: pixeltorem(40px);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin-bottom: pixeltorem(51px);
+          }
+
+        .iconcheck {
+            font-size: pixeltorem(30px);
+            width: pixeltorem(90px);
+            color: map-get($palette-action, suc-00);
+        }
+    }
+    .confirmhelpcentertitle {
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(18px);
+        margin: pixeltorem(43px) 0 pixeltorem(24px);
+        text-align: center;
+    
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          font-size: pixeltorem(24px);
+          margin-bottom: pixeltorem(32px);
+        }
+      }
+
+      .confirmhelpcenterdescription {
+        font-family: "Nunito", sans-serif;
+        margin-bottom: pixeltorem(24px);
+        border-radius: pixeltorem(8px);
+        background-color: #EEF5F9;
+        padding: pixeltorem(16px);
+
+        .confirmticket {
+          font-family: "Nunito Bold", sans-serif;
+          margin: 0 pixeltorem(5px);
+        }
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin-bottom: pixeltorem(32px);
+          }
+      }
+
+      .confirmhelpcenterbtns {
+        .confirmnextbtn{
+          margin-bottom: pixeltorem(8px);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import '../../../../App.scss';
+
+.methods {
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  width: 100%;
+
+  .methodstitle {
+    font-size: pixeltorem(14px);
+    line-height: pixeltorem(20px);
+    margin-bottom: pixeltorem(36px);
+  }
+
+  .methodscards {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .methodscard {
+      flex: 0 0 100%;
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  .methodsaction {
+    margin-top: pixeltorem(27px);
+  }
+
+}
+
+.bankfeedback {
+  @extend .alertfeedbackcmp;
+}

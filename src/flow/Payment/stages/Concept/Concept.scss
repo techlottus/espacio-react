@@ -1,0 +1,52 @@
+@import "../../../../App.scss";
+
+.payment-concept {
+  width: 100%;
+
+  .paymentconcepts {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .paymentconcept {
+      flex: 0 0 100%;
+      margin-bottom: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-bottom: pixeltorem(24px);
+        flex: 0 0 calc(100%);
+      }
+    }
+  }
+
+  .invoice {
+    font-family: "Nunito", sans-serif;
+    margin-top: pixeltorem(48px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: pixeltorem(14px);
+    margin-bottom: pixeltorem(36px);
+
+    > span {
+      margin-left: pixeltorem(16px);
+    }
+
+  }
+
+  .ulatext {
+    width: 100%;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      max-width: pixeltorem(430px);
+    }
+  }
+
+  .paymentdescription {
+    font-size: pixeltorem(12px);
+    margin-bottom: pixeltorem(48px);
+  }
+}
+
+.termsfeedback {
+  @extend .alertfeedbackcmp;
+}

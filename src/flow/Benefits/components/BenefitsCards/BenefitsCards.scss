@@ -1,0 +1,47 @@
+@import "../../../../App.scss";
+
+.benefits-cards-container {
+  padding: pixeltorem(60px) 0;
+
+  .benefitstabs {
+    width: 25%;
+  }
+  .benefitscards {
+    padding: pixeltorem(28px) 0;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 8px;
+
+    &.islist {
+      display: block;
+      width: 100%;
+      .benefitscard {
+        padding: pixeltorem(8px) 0;
+      }
+      padding: pixeltorem(28px) 0;
+    }
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      gap: 15px;
+    }
+
+    .benefitscard {
+      flex: 0 0 calc(50% - 8px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        flex: 0 0 calc(25% - 15px);
+      }
+      
+    }
+  }
+
+  .benefitslist {
+    display: block;
+  }
+  .benefitscardstitle {
+    h2 {
+      font-family: "Bebas", sans-serif;
+      font-size: pixeltorem(42px);
+    }
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../App.scss';
+
+.cardrequestcontainer {
+  font-family: "Nunito", sans-serif;
+  font-size: pixeltorem(14px);
+  color: map-get($palette-neutral, n80);
+
+  .ticketrequest {
+    font-family: "Nunito Bold", sans-serif;
+    margin-bottom: pixeltorem(8px);
+  }
+
+  .labelcard{
+    padding: pixeltorem(8px) 0;
+  }
+}

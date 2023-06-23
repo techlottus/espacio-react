@@ -1,0 +1,66 @@
+@import '../../../../../App.scss';
+
+.degreefile-content {
+  margin-top: pixeltorem(32px);
+  margin-bottom: pixeltorem(36px);
+  font-family: "Nunito", sans-serif;
+  font-size: pixeltorem(16px);
+
+  .degreenotice {
+    width: 100%;
+    margin: pixeltorem(16px) 0;
+  
+    .degreenoticelink {
+      padding: 0 pixeltorem(4px);
+      font-family: 'Nunito Bold',sans-serif;
+      color: palette-colors($brand, p00);
+    }
+  }
+
+  .degreedownloadlink {
+    margin: pixeltorem(32px) 0;
+  }
+
+  .degreenoticeupload {
+    margin: pixeltorem(32px) 0;
+  }
+
+  .degreeuploadtext {
+    font-family: "Nunito Bold", sans-serif;
+    margin: pixeltorem(16px) 0 0;
+  }
+
+  .degreeuploaddescription {
+    font-family: "Nunito", sans-serif;
+    font-size: pixeltorem(14px);
+    margin: pixeltorem(8px) 0 0;
+}
+
+  .degreelinkcurp {
+    margin: pixeltorem(8px) 0 0;
+  }
+}
+
+.degreedocbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .degreedocbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .degreedocbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+}

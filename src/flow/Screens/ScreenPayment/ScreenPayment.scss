@@ -1,0 +1,35 @@
+@import "../../../App.scss";
+
+.screenpayment-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  // padding-bottom: 100vh;
+  height: 100vh;
+
+  .imgscreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .imgpayment {
+      width: pixeltorem(240px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: pixeltorem(360px);
+      }
+    }
+  }
+
+  .msgpayment {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: pixeltorem(18px);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      font-size: pixeltorem(24px);
+    }
+  }
+}

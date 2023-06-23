@@ -1,0 +1,51 @@
+@import '../../../../App.scss';
+
+.accountstatusresume-container {
+  font-family: "Nunito", sans-serif;
+  width: calc(100% - #{pixeltorem(32px)});
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: map-get($palette-neutral, n00);
+  padding: pixeltorem(16px) pixeltorem(16px) 0 pixeltorem(16px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    border-radius: pixeltorem(8px);
+    padding: pixeltorem(36px) pixeltorem(36px) 0 pixeltorem(36px); 
+  }
+
+  .accountstatusresumetitle {
+    font-size: pixeltorem(18px);
+    line-height: pixeltorem(24px);
+    margin-top: pixeltorem(36px);
+    margin-bottom: pixeltorem(36px);
+    font-family: "Nunito Bold", sans-serif;
+  }
+
+  > .accountstatusresumebtn {
+    margin-top: pixeltorem(36px);
+    margin-bottom: pixeltorem(64px);
+    display: flex;
+    flex-direction: column;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      flex-direction: row;
+    }
+    .downloadbtn {
+      margin-bottom: pixeltorem(16px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+
+  .accountstatuserror {
+    text-align: center;
+    font-size: pixeltorem(14px);
+    font-family: "Nunito Bold", sans-serif;
+    padding: pixeltorem(16px) 0;
+  }
+
+}
+.termsfeedback {
+  @extend .alertfeedbackcmp;
+}

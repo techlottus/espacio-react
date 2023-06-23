@@ -1,0 +1,30 @@
+@import "../../../../App.scss";
+
+.otherareasformcontent {
+
+    .titleotherareasform {
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(16px);
+        margin: pixeltorem(19px) 0 pixeltorem(24px);
+    }
+    .otherareasactivitiesitem {
+        padding-bottom: pixeltorem(16px);
+    
+        .otherareasactivitiescheckbox {
+          &:not(:last-child) {
+            padding-bottom: pixeltorem(8px);
+          }
+        }
+      }
+
+    .commentotherareasform {
+        margin-bottom: pixeltorem(24px);
+    }
+
+    .btnotherareasform {
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            display: flex;
+            justify-content: center;
+          }
+    }
+}

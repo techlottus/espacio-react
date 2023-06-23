@@ -1,0 +1,11 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-accordion{
+  @extend .modal-container;
+
+  .subtitle{
+    font-family: 'Nunito', sans-serif;
+    padding-bottom: pixeltorem(15px);
+  }
+}

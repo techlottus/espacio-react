@@ -1,0 +1,47 @@
+@import "../../../App.scss";
+
+.modal-solicitude {
+  color: map-get($palette-neutral, n00);
+  font-family: "Nunito", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  .modalbody {
+    position: absolute;
+    top: 30%;
+    right: 27%;
+    width: 40%;
+    @media only screen and (max-width: map-get($grid-breakpoints, m)) {
+      width: 95%;
+      right: pixeltorem(12px);
+    }
+    .solicitudecontent {
+      .title {
+        font-weight: bold;
+        font-size: pixeltorem(18px);
+        line-height: pixeltorem(24px);
+        padding-bottom: pixeltorem(16px);
+      }
+      .text {
+        font-size: pixeltorem(12px);
+        line-height: pixeltorem(16px);
+        padding-bottom: pixeltorem(16px);
+        .boldtxt {
+          font-weight: bold;
+        }
+      }
+      .btnsolicitude {
+        .secondtext {
+          font-size: pixeltorem(12px);
+          line-height: pixeltorem(16px);
+          padding-bottom: pixeltorem(16px);
+        }
+      }
+    }
+  }
+}

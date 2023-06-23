@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Welcome/>  should init component 1`] = `
+<div
+  className="welcome-container"
+>
+  <div
+    className="title-container"
+  >
+    <h2
+      className="welcome-title"
+    />
+  </div>
+  <div
+    className="img-container"
+  >
+    <img
+      alt="logo-notebook"
+      className="img-notebook"
+      src="images/Terms/terms.png"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Payment />  should init component 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <lottus-navbar />
+  </div>,
+  <div
+    className="payment-container"
+  >
+    <div
+      className="paymentstages"
+    >
+      <div
+        className="back"
+      >
+        <lottus-breadcrumb />
+      </div>
+      <p
+        className="paymenttitle"
+      />
+      <div
+        className="paymentcontent"
+      >
+        <div
+          className="paymentcontentchild"
+        >
+          <div
+            className="paymentsteps"
+          >
+            <lottus-stepper />
+          </div>
+          <div
+            className="paymentcontent"
+          >
+            Array [
+              <div
+                className="payment-concept"
+              >
+                <p
+                  className="paymentdescription"
+                />
+                <div
+                  className="paymentconcepts"
+                />
+                <div
+                  className="invoice"
+                >
+                  <lottus-toogle-switch />
+                  <span />
+                </div>
+                <div
+                  className="next"
+                >
+                  <lottus-button />
+                </div>
+              </div>,
+              "",
+            ]
+          </div>
+        </div>
+      </div>
+      <div
+        className="paymentresume"
+      >
+        <div
+          className="paymentresumedesktopempty"
+        >
+          <span
+            className="material-icons icon"
+          >
+            error_outline
+          </span>
+          <div
+            className="paymentresumedesktopemptytitle"
+          />
+          <div
+            className="paymentresumedesktopemptydescription"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="paymentstick-container"
+      style={
+        Object {
+          "height": "100px",
+        }
+      }
+    >
+      <span
+        className="material-icons icon"
+        onClick={[Function]}
+      >
+        expand_less
+      </span>
+      <div
+        className="paymentstickempty"
+      >
+        <div
+          className="paymentsticktitle"
+        />
+        <div
+          className="paymentsticktsubtitle"
+        />
+      </div>
+    </div>
+  </div>,
+  "",
+  "",
+]
+`;

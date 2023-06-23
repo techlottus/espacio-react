@@ -1,0 +1,40 @@
+@import '../../../App.scss';
+
+.notification-container {
+  align-items: center;
+  display: flex;
+   width: 100%;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border: 0.0625rem solid map-get($palette-neutral, n10);
+  background-color: map-get($palette-neutral, n00);
+  border-radius: 0.5rem;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: calc(100% - 2rem);
+  } 
+
+  > .side {
+    padding: 0 1rem;
+    text-align: center;
+    &.-normal {
+      color: map-get($palette-neutral, n60);
+    }
+    > span {
+      font-size: 1.5rem;
+    }
+  }
+
+  > .content {
+    > .content-text {
+      width: 100%;
+      min-height: 100%;
+      font-size: pixeltorem(16px);
+      &.isbold{
+        font-weight: 700;
+        font-size: pixeltorem(18px);
+        line-height: pixeltorem(24px);
+      }
+    }
+  }
+}

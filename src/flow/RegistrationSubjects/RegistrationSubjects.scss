@@ -1,0 +1,108 @@
+@import '../../App.scss';
+
+.registrationsubjects-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: map-get($palette-neutral, n80);
+  margin-left: pixeltorem(16px);
+  font-family: 'Nunito',sans-serif;
+  @extend .headerapp-top;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    flex-direction: row;
+  }
+
+  .registrationsubjectstages {
+    width: calc(100% - #{pixeltorem(32px)});
+    padding: pixeltorem(36px) pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: calc(55% - #{pixeltorem(72px)});
+      padding: pixeltorem(36px) pixeltorem(24px) pixeltorem(36px) pixeltorem(48px);
+    }
+  
+  .registrationsubjectstitle {
+    font-size: pixeltorem(24px);
+    line-height: pixeltorem(30px);
+    font-family: 'Nunito Bold',sans-serif;
+    padding: pixeltorem(26px) 0 pixeltorem(24px);
+    margin-bottom: pixeltorem(24px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(36px);
+    }
+  }
+
+  .registrationsubjectswrapper {
+    margin-bottom: pixeltorem(26px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        // display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin-bottom: pixeltorem(36px);
+    }
+
+    .registrationsubjectssubtitle {
+        font-size: pixeltorem(14px);
+        padding-bottom: pixeltorem(24px);
+      }
+
+      .registrationsubjectsbtnwrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        .registrationsubjectsbtn {
+            margin-right: pixeltorem(10px);
+        }
+      }
+  }
+
+  > .registrationsubjectscontent {
+    width: 100%;
+    font-size: pixeltorem(18px);
+    margin: pixeltorem(26px) 0;
+    padding-bottom: pixeltorem(100px);
+    
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-bottom: pixeltorem(10px);
+  } 
+
+    .registrationsubjectstext {
+        display: flex;
+        align-items: center;
+        margin-bottom: pixeltorem(26px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin-bottom: pixeltorem(24px);
+        }
+
+        .icontable {
+            font-size: pixeltorem(18px);
+            padding-left: pixeltorem(14px);
+            cursor: pointer;
+        }
+    }
+
+    .registrationsubjectsfeedback {
+      font-family: 'Nunito',sans-serif;
+      font-size: pixeltorem(18px);
+      margin-bottom: pixeltorem(20px);
+    }
+  }
+
+  .registrationsubjectsresume {
+    right: 0;
+    position: fixed;
+    display: none;
+    width: 40%;
+    background-color: #F2F2F2;
+    @extend .fixedcontainer-height;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: block;
+    }
+  }
+}
+}

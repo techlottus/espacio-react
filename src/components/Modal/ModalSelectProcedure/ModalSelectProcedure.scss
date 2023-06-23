@@ -1,0 +1,58 @@
+@import "../../../App.scss";
+@import "../Modal.scss";
+
+.modal-select-procedure {
+  @extend .modal-container;
+  align-items: inherit;
+  font-family: "Nunito Bold", sans-serif;
+  .modalcontent {
+    margin-top: 5vh;
+
+    &.twoitems {
+      height: auto;
+      @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+        width: calc(60% - #{pixeltorem(48px)});
+        max-height: pixeltorem(250px);
+        height: pixeltorem(200px);
+        height: auto;
+      }
+    }
+    &.fouritems {
+      height: auto;
+      @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+        width: calc(60% - #{pixeltorem(48px)});
+        max-height: pixeltorem(430px);
+        height: pixeltorem(200px);
+        height: auto;
+      }
+    }
+
+    .modalheader {
+      justify-content: end;
+    }
+    .modaltitle {
+      font-weight: 700;
+      font-size: pixeltorem(24px);
+    }
+
+    .modalbtns {
+      margin-bottom: pixeltorem(16px);
+    }
+    .modalbody {
+      text-align: center;
+      display: grid;
+      &.fiveitems {
+        grid-template-areas: "type";
+      }
+      &.fouritems {
+        grid-template-areas: "type";
+        @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+          grid-template-areas: "type type";
+        }
+      }
+      & .proceduretype {
+        margin: pixeltorem(16px);
+      }
+    }
+  }
+}

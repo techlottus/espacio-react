@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <AcademicHistoryDocuments/> should init component 1`] = `
+<div
+  className="academicinfocontainer"
+>
+  <div
+    className="academichistoryprofile"
+  >
+    <lottus-card-profile />
+  </div>
+  <div
+    className="forminformationacademichistory"
+  >
+    <div
+      className="academichistoryinfonumber"
+    >
+      <p
+        className="academichistoryinfonumbertitle"
+      />
+      <div
+        className="academichistoryitem"
+      >
+        <lottus-input />
+      </div>
+      <div
+        className="academichistoryitem"
+      >
+        <lottus-select />
+      </div>
+      <div
+        className="academichistoryitem"
+      >
+        <lottus-input />
+      </div>
+    </div>
+  </div>
+  <div
+    className="academichistorybtns"
+  >
+    <div
+      className="academicbtn"
+    >
+      <lottus-button />
+    </div>
+    <div
+      className="academicbtn"
+    >
+      <lottus-button />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,22 @@
+@import "../../../../../App.scss";
+
+.forms-container {
+  font-family: "Nunito",sans-serif;
+  padding: pixeltorem(38px) pixeltorem(25px) 0 pixeltorem(25px);
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    padding: pixeltorem(38px) pixeltorem(35px) 0 pixeltorem(114px);
+    max-width: 50%;
+  }
+  .forms-view {
+    background-color: map-get($palette-neutral, n00);
+
+    .forms-stepper {
+      height: pixeltorem(100px);
+      width: 100%;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 100%;
+        padding: 0 0;
+      }
+    }
+  }
+}

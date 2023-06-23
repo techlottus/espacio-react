@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TermsBtns/>  init component 1`] = `
+<div
+  className="terms-container"
+>
+  <h2
+    className="termsbtns-title"
+  />
+  <p
+    className="termsbtns-text"
+  />
+  <div
+    className="buttons"
+  >
+    <div
+      className="button-wrap"
+    >
+      <lottus-button />
+    </div>
+    <div
+      className="button-wrap second-btn"
+    >
+      <lottus-button />
+    </div>
+  </div>
+  <div
+    className="newsletter-wrap"
+  >
+    <lottus-toogle-switch />
+    <p
+      className="termsbtns-text"
+    />
+  </div>
+  <div
+    className="progress-bar"
+  >
+    <lottus-progress-bar />
+  </div>
+  <div
+    className="send-btn"
+  >
+    <lottus-button />
+  </div>
+</div>
+`;

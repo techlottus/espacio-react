@@ -1,0 +1,56 @@
+@import "../../../../App.scss";
+
+.formcreditcardcontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: "Nunito", sans-serif;
+  padding: pixeltorem(16px) pixeltorem(30px);
+  z-index: 50;
+  background: map-get($palette-neutral, n00);
+  overflow-y: auto;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    padding: pixeltorem(40px) pixeltorem(60px);
+  }
+
+  .close {
+    text-align: right;
+    color: map-get($palette-neutral, n60);
+    font-size: pixeltorem(16px);
+    cursor: pointer;
+  }
+  .title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: pixeltorem(36px);
+    line-height: pixeltorem(42px);
+    padding-bottom:pixeltorem(54px);
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: 0 pixeltorem(120px) pixeltorem(54px) pixeltorem(120px);
+      margin: 0 pixeltorem(120px);
+    }
+  }
+  .formcontainer {
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: 0 pixeltorem(120px) ;
+      margin: 0 pixeltorem(120px);
+    }
+    .formitem {
+      padding-bottom: pixeltorem(16px);
+    }
+
+    .formitemgrid {
+      .item {
+        padding-bottom: pixeltorem(16px);
+      }
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: grid;
+        grid-template-areas: "item item";
+        column-gap: pixeltorem(10px);
+      }
+    }
+  }
+}

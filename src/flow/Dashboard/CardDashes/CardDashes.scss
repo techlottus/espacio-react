@@ -1,0 +1,36 @@
+@import '../../../App.scss';
+
+.cardsdash-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: pixeltorem(30px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, s)){
+    justify-content: center;
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)){
+    justify-content: space-between;
+  }
+
+  > .card-dash {
+    flex: 0 0 calc(50% - #{pixeltorem(8px)}) ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: pixeltorem(16px);
+    cursor: pointer;
+
+    &:nth-child(odd) {
+      padding-right: pixeltorem(8px);
+    }
+
+    &:nth-child(even) {
+      padding-left: pixeltorem(8px);
+    }
+
+    @media only screen and (min-width: map-get($grid-breakpoints, s)) and (max-width: map-get($grid-breakpoints, m)){
+      flex: 0 0 33.33%;
+      margin-bottom: pixeltorem(24px);
+    }
+  }
+}

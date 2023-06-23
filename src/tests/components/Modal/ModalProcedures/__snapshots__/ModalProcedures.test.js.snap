@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ModalProcedures/> should init component 1`] = `
+<div
+  className="modal-academic"
+>
+  <div
+    className="modalcontent"
+  >
+    <div
+      className="modalheader"
+    >
+      <div
+        className="title"
+      />
+    </div>
+    <div
+      className="modalbody"
+    >
+      <div
+        className="academicprofile"
+      >
+        <lottus-card-profile />
+      </div>
+      <div
+        className="infoacademic"
+      >
+        <p
+          className="infoacademictext"
+          key="0"
+        >
+          Contacto: 5530091000
+        </p>
+        <p
+          className="infoacademictext"
+          key="1"
+        >
+          Constancia: $480.00 - Constancia de Término 100%
+        </p>
+        <p
+          className="infoacademictext"
+          key="2"
+        >
+          Tipo de entrega: Únicamente en Formato Digital
+        </p>
+      </div>
+      <div
+        className="feedbackcontent"
+      >
+        <lottus-feedback>
+          <div
+            className="feedback-content "
+            content=""
+          >
+            <div
+              className="contentfeedbackprocedures"
+            >
+              Constancia de estudio
+               
+               
+              $480.00
+            </div>
+          </div>
+        </lottus-feedback>
+      </div>
+      <div
+        className="modalbtns"
+      >
+        <div
+          className="btnsecundary"
+        >
+          <lottus-button />
+        </div>
+        <div
+          className="btnprimary"
+        >
+          <lottus-button />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

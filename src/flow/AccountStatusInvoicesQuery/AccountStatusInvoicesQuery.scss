@@ -1,0 +1,55 @@
+@import "../../App.scss";
+
+.invoicequery-container {
+  padding: pixeltorem(40px) pixeltorem(5px);
+  margin: pixeltorem(36px) pixeltorem(15px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: pixeltorem(68px) pixeltorem(35px) 0 pixeltorem(51px);
+  }
+
+  .contentheader {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+    }
+
+    .breadcrumbinvoicequery {
+      width: calc(100% - #{pixeltorem(32px)});
+      margin-top: pixeltorem(36px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    .invoicequerytitle {
+      width: calc(100% - #{pixeltorem(32px)});
+      margin-top: pixeltorem(40px);
+      font-size: pixeltorem(24px);
+      line-height: pixeltorem(30px);
+      font-family: "Nunito Bold", sans-serif;
+      margin-bottom: pixeltorem(36px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    .invoicequerydescription {
+      font-size: pixeltorem(16px);
+      font-family: "Nunito", sans-serif;
+      margin-bottom: pixeltorem(12px);
+    }
+  }
+
+  .paginatorinvoicequery {
+    display: flex;
+    justify-content: center;
+    margin: pixeltorem(34px);
+  }
+}

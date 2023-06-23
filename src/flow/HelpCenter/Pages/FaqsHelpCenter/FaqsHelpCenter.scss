@@ -1,0 +1,93 @@
+@import "../../../../App.scss";
+
+.faqs-help-container {
+  &:first-child {
+    padding: pixeltorem(92px) pixeltorem(5px) pixeltorem(30px) pixeltorem(5px);
+    margin: 0 pixeltorem(15px);
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    @extend .headerapp-top;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      margin: pixeltorem(36px) pixeltorem(35px) 0 pixeltorem(60px);
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, l)) {
+      margin-top: pixeltorem(56px);
+    }
+  }
+  padding: 0 pixeltorem(5px) pixeltorem(30px) pixeltorem(5px);
+  margin: 0 pixeltorem(15px);
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  @extend .headerapp-top;
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: pixeltorem(36px) pixeltorem(35px) 0 pixeltorem(60px);
+  }
+  @media only screen and (min-width: map-get($grid-breakpoints, l)) {
+    margin-top: pixeltorem(56px);
+  }
+  .helpfaqsbanner {
+    .title {
+      font-style: normal;
+      font-weight: bold;
+      color: map-get($palette-neutral, n00 );
+      font-size: pixeltorem(24px);
+      line-height: pixeltorem(30px);
+      padding-top: pixeltorem(20px);
+      z-index: 1;
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(36px);
+        line-height: pixeltorem(42px);
+        padding-top: pixeltorem(36px);
+      }
+    }
+    .bannerfaqsimg {
+      max-width: 100%;
+      height: 100%;
+      position: absolute;
+      right: -50%;
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+    }
+  }
+
+  .contentfaqs{
+    display: block;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+    }
+    .tabscontainer{
+      display: grid;
+      grid-template: 'btn btn';
+      grid-column-gap: pixeltorem(10px);
+      row-gap: pixeltorem(16px);
+      padding-bottom: pixeltorem(31px);
+      padding-top: pixeltorem(39px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: block;
+        padding-top: 0;
+      }
+      .btnfaqs{
+        margin-bottom: pixeltorem(5px);
+      }
+    }
+    .accordioncontainer{
+      width: 100%;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-left: pixeltorem(24px);
+
+      }
+      .accordioncontent{
+          padding-bottom: pixeltorem(24px);
+        
+      }
+    }
+  }
+
+}

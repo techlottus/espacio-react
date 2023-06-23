@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <StudyRecordInformation /> should form valid with campus  1`] = `
+Array [
+  <div
+    className="studyrecordinfoprofile"
+  >
+    <lottus-card-profile />
+  </div>,
+  <div
+    className="studyrecordinfonumber"
+  >
+    <p
+      className="studyrecordinfonumbertitle"
+    />
+    <div
+      className="studyrecordinfoinput"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordnotice"
+  >
+    <lottus-feedback>
+      <div
+        className="feedback-content"
+        content=""
+      >
+        <div>
+          Conoce los
+          <span
+            className="studyrecordnoticelink"
+            onClick={[Function]}
+          >
+            tipos de constacia
+          </span>
+          según tus necesidades
+        </div>
+      </div>
+    </lottus-feedback>
+  </div>,
+  <div
+    className="studyrecordform"
+  >
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformcheck"
+    >
+      <lottus-checkbox />
+    </div>
+    <div
+      className="stydyrecordformitem"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordbtns"
+  >
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+  </div>,
+  "",
+]
+`;
+
+exports[`Test <StudyRecordInformation /> should form valid without campus  1`] = `
+Array [
+  <div
+    className="studyrecordinfoprofile"
+  >
+    <lottus-card-profile />
+  </div>,
+  <div
+    className="studyrecordinfonumber"
+  >
+    <p
+      className="studyrecordinfonumbertitle"
+    />
+    <div
+      className="studyrecordinfoinput"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordnotice"
+  >
+    <lottus-feedback>
+      <div
+        className="feedback-content"
+        content=""
+      >
+        <div>
+          Conoce los
+          <span
+            className="studyrecordnoticelink"
+            onClick={[Function]}
+          >
+            tipos de constacia
+          </span>
+          según tus necesidades
+        </div>
+      </div>
+    </lottus-feedback>
+  </div>,
+  <div
+    className="studyrecordform"
+  >
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformcheck"
+    >
+      <lottus-checkbox />
+    </div>
+    <div
+      className="stydyrecordformitem"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordbtns"
+  >
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+  </div>,
+  "",
+]
+`;
+
+exports[`Test <StudyRecordInformation /> should init component 1`] = `
+Array [
+  <div
+    className="studyrecordinfoprofile"
+  >
+    <lottus-card-profile />
+  </div>,
+  <div
+    className="studyrecordinfonumber"
+  >
+    <p
+      className="studyrecordinfonumbertitle"
+    />
+    <div
+      className="studyrecordinfoinput"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordnotice"
+  >
+    <lottus-feedback>
+      <div
+        className="feedback-content"
+        content=""
+      >
+        <div>
+          Conoce los
+          <span
+            className="studyrecordnoticelink"
+            onClick={[Function]}
+          >
+            tipos de constacia
+          </span>
+          según tus necesidades
+        </div>
+      </div>
+    </lottus-feedback>
+  </div>,
+  <div
+    className="studyrecordform"
+  >
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformselect"
+    >
+      <lottus-select />
+    </div>
+    <div
+      className="stydyrecordformcheck"
+    >
+      <lottus-checkbox />
+    </div>
+    <div
+      className="stydyrecordformitem"
+    >
+      <lottus-input />
+    </div>
+  </div>,
+  <div
+    className="studyrecordbtns"
+  >
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+    <div
+      className="studyrecordbtn"
+    >
+      <lottus-button />
+    </div>
+  </div>,
+  "",
+]
+`;

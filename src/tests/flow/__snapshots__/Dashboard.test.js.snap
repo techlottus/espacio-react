@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Dashboard /> should init component 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <lottus-navbar />
+  </div>,
+  <div
+    className="dashboard-container"
+  >
+    <div
+      className="dashboardsuccess"
+    >
+      <div
+        className="cardheadercontainer"
+      >
+        <div
+          className="cardheadercontent"
+        >
+          <h2
+            className="cardheadergreeting"
+          />
+          <span
+            className="cardheaderenroll"
+          />
+          <span
+            className="cardheaderquote"
+          />
+        </div>
+        <img
+          alt="logo"
+          className="cardheaderpicture"
+        />
+      </div>
+      <div
+        className="content-container"
+      >
+        <div
+          className="contentcarousel"
+        >
+          <h2
+            className="carouselnews"
+          />
+          <div
+            className="carousel"
+          >
+            <lottus-carousel />
+          </div>
+        </div>
+        <div
+          className="contentcards"
+        >
+          <h2
+            className="cardstitle"
+          />
+          <div
+            className="cardsdash-container"
+          >
+            <div
+              className="card-dash"
+              key="0"
+            >
+              <lottus-card-dash
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <lottus-button
+                  button={true}
+                />
+              </lottus-card-dash>
+            </div>
+            <div
+              className="card-dash"
+              key="1"
+            >
+              <lottus-card-dash
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <lottus-button
+                  button={true}
+                />
+              </lottus-card-dash>
+            </div>
+            <div
+              className="card-dash"
+              key="2"
+            >
+              <lottus-card-dash
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <lottus-button
+                  button={true}
+                />
+              </lottus-card-dash>
+            </div>
+            <div
+              className="card-dash"
+              key="3"
+            >
+              <lottus-card-dash
+                style={
+                  Object {
+                    "height": "100%",
+                    "width": "100%",
+                  }
+                }
+              >
+                <lottus-button
+                  button={true}
+                />
+              </lottus-card-dash>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="footer"
+    style={
+      Object {
+        "bottom": "0",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <lottus-footer />
+  </div>,
+]
+`;

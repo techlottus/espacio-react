@@ -1,0 +1,37 @@
+@import "../../App.scss";
+
+.screen-container {
+  @extend .headerapp-top;
+}
+
+.empty-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  .emptyimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: pixeltorem(36px) 0 pixeltorem(16px) 0;
+
+    .imgempty {
+      width: pixeltorem(200px);
+    }
+  }
+
+  .congratsmsg {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: pixeltorem(18px);
+    display: flex;
+    justify-content: center;
+  }
+
+  .continuemsg {
+    font-family: "Nunito", sans-serif;
+    font-size: pixeltorem(18px);
+    display: flex;
+    justify-content: center;
+    margin-top: pixeltorem(16px);
+  }
+}

@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <HelpButton/> should init component 1`] = `
+<div
+  className="helpbutton-container"
+>
+  <div
+    className="helpbutton-content"
+  >
+    <lottus-label />
+  </div>
+  <lottus-button-circle />
+</div>
+`;

@@ -1,0 +1,6 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-toggle {
+  @extend .modal-container;
+}

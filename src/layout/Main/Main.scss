@@ -1,0 +1,25 @@
+@import "../../App.scss";
+
+.App{
+  margin-top:pixeltorem(72px);
+}
+
+.navbar {
+  position: relative;
+  .menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 100vh;
+    width: 100%;
+    background-color: map-get($palette-overlay, b-50);
+
+    @media (min-width: 991px) {
+      height: 100%;
+      background-color: transparent;
+      top: pixeltorem(80px);
+      right: pixeltorem(16px);
+    }
+  }
+}

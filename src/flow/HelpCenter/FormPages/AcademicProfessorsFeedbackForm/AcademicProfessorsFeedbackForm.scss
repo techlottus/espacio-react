@@ -1,0 +1,47 @@
+@import "../../../../App.scss";
+
+.academicactivitiescontent {
+  font-family: "Nunito", sans-serif;
+
+  .academicactivitiestitle {
+    padding-bottom: pixeltorem(32px);
+    font-weight: 700;
+  }
+  .academicactivitiesitem {
+    padding-bottom: pixeltorem(16px);
+
+    .academicactivitiescheckbox {
+      &:not(:last-child) {
+        padding-bottom: pixeltorem(8px);
+      }
+    }
+    .academicdescriptiontitle {
+      padding-bottom: pixeltorem(12px);
+      font-weight: 700;
+    }
+    .academicactivitiesinfouploadtitle {
+      padding-top: pixeltorem(8px);
+    }
+  }
+  .academicactivitiesbtns {
+    margin-top: pixeltorem(48px);
+    margin-bottom: pixeltorem(120px);
+    width: 100%;
+    .academicbtn {
+      height: 100%;
+      &:nth-child(1) {
+        margin-bottom: pixeltorem(16px);
+      }
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0;
+      .academicbtn {
+        &:first-child {
+          margin-right: pixeltorem(16px);
+        }
+      }
+    }
+  }
+}

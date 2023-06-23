@@ -1,0 +1,60 @@
+@import "../../../../App.scss";
+
+.cardonline-payment {
+  width: 100%;
+
+  .emptycardonlinepayment {
+    width: 100%;
+
+    .emptyimagecardonlinepayment {
+      width: 100%;
+    }
+
+    .emptybtnscardonlinepayment {
+      margin-top: pixeltorem(56px);
+      width: 100%;
+
+      .emptybtncardonlinepayment {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: pixeltorem(16px);
+      }
+
+
+    }
+  }
+
+  .itemscardonlinepayment {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+
+    .itemcardonlinepayment {
+      flex: 0 0 100%;
+      margin-bottom: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-bottom: pixeltorem(24px);
+      }
+    }
+  }
+
+  .btnscardonlinepayment {
+    width: 100%;
+    margin-top: pixeltorem(36px);
+
+    .btncardonlinepayment {
+      width: 100%;
+      margin-bottom: pixeltorem(36px);
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: auto;
+      }
+
+      &:last-child {
+        margin-bottom: pixeltorem(16px);
+      }
+    }
+  }
+}

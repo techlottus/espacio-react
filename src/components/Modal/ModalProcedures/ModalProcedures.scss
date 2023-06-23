@@ -1,0 +1,37 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-academic {
+  @extend .modal-container;
+  .modalbody {
+    
+    .academicprofile {
+      margin: pixeltorem(16px) 0;
+    }
+    .infoacademic {
+      font-family: "Nunito", sans-serif;
+      font-size: pixeltorem(14px);
+      line-height: pixeltorem(19px);
+      padding-bottom: pixeltorem(16px);
+      .infoacademictext {
+        & .material-icons {
+          padding-right: pixeltorem(11px);
+        }
+        &:last-child {
+          padding-bottom: pixeltorem(16px);
+        }
+      }
+    }
+    .modalbtns {
+      @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+        float: right;
+      }
+    }
+
+    .contentfeedbackprocedures {
+      font-family: "Nunito Bold", sans-serif;
+      font-size: pixeltorem(18px);
+      line-height: pixeltorem(24px);
+    }
+  }
+}

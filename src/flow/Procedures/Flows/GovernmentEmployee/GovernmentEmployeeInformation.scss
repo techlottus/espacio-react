@@ -1,0 +1,48 @@
+@import '../../../../App.scss';
+
+.governmentemployeeinfoprofile {
+  width: 100%;
+  margin-top: pixeltorem(22px);
+}
+
+.governmentemployeeinfonumber {
+  margin-top: pixeltorem(32px);
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: pixeltorem(32px);
+
+  .governmentemployeeinfotitle {
+    margin-bottom: pixeltorem(32px);
+  }
+}
+
+  .governmentemployeeinfoformitem {
+    width: 100%;
+    margin: pixeltorem(32px) 0;
+  }
+
+
+.governmentemployeeinfoinfbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .governmentemployeeinfoinfbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .governmentemployeeinfoinfbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+    
+  }
+}

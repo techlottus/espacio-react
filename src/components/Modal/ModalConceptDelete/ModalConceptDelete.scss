@@ -1,0 +1,6 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-concepts {
+  @extend .modal-container;
+}

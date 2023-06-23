@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Forms/> should init component 1`] = `
+<div
+  className="forms-container"
+>
+  <div
+    className="forms-view"
+  >
+    <div
+      className="forms-stepper"
+    >
+      <lottus-stepper />
+    </div>
+    <div
+      className="forms-content"
+    />
+  </div>
+</div>
+`;

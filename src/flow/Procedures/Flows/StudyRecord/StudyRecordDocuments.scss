@@ -1,0 +1,52 @@
+@import '../../../../App.scss';
+
+.studyrecorddocsmax {
+  font-family: 'Nunito',sans-serif;
+  font-size: pixeltorem(16px);
+  line-height: pixeltorem(21px);
+  margin-top: pixeltorem(32px);
+  width: 100%;
+  margin-bottom: pixeltorem(36px);
+}
+
+.studyrecorddocsupload {
+  width: 100%;
+  .studyrecorddocsuploadtitle {
+    width: 100%;
+    font-family: 'Nunito Bold',sans-serif;
+    font-size: pixeltorem(16px);
+    line-height: pixeltorem(21px);
+    margin-bottom: pixeltorem(16px);
+  }
+}
+
+.studyrecorddocsnotice {
+  width: 100%;
+  margin: pixeltorem(36px) 0;
+}
+
+.studyrecorddocsbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .studyrecorddocsbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .studyrecorddocsbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+    
+  }
+  
+}

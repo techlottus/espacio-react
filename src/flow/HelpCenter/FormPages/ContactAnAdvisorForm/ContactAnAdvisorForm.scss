@@ -1,0 +1,21 @@
+@import "../../../../App.scss";
+
+.advisorformcontent {
+
+    .titleadvisorform {
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(16px);
+        margin: pixeltorem(19px) 0 pixeltorem(24px);
+    }
+
+    .commentadvisorform {
+        margin-bottom: pixeltorem(24px);
+    }
+
+    .btnadvisorform {
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            display: flex;
+            justify-content: center;
+          }
+    }
+}

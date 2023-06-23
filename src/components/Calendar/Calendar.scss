@@ -1,0 +1,89 @@
+@import "../../App.scss";
+
+.calendar-container {
+  font-family: "Nunito", sans-serif;
+  padding: pixeltorem(40px) pixeltorem(5px);
+  margin: pixeltorem(36px) pixeltorem(15px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin: pixeltorem(68px) pixeltorem(35px) 0 pixeltorem(51px);
+  }
+  .contentheader {
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .breadcrumbcalendar {
+      width: calc(100% - #{pixeltorem(32px)});
+      margin-top: pixeltorem(36px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+
+  .contenttitle {
+    padding-top: pixeltorem(18px);
+
+    .calendartitle {
+      h2 {
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        font-size: pixeltorem(24px);
+        line-height: pixeltorem(30px);
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          font-size: pixeltorem(36px);
+          line-height: pixeltorem(42px);
+        }
+      }
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        align-items: baseline;
+        padding-left: 30%;
+      }
+    }
+
+    .downloadbtn {
+      margin: pixeltorem(13px) 0;
+      display: block;
+      width: 100%;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: 10%;
+        margin: 0;
+      }
+    }
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      justify-content:space-between;
+    }
+  }
+
+  .imagecalendar {
+    .imgcalendar {
+      margin-top: pixeltorem(42px);
+      width: 100%;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-top: pixeltorem(38px);
+      }
+    }
+    .imgmarks {
+      padding-top: pixeltorem(36px);
+      width: 100%;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+      }
+    }
+  }
+}

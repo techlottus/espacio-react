@@ -1,0 +1,36 @@
+@import '../../../App.scss';
+
+.paymenttotalprice {
+  margin-top: pixeltorem(12px);
+  display: flex;
+  font-family: 'Nunito', sans-serif;
+  justify-content: space-between;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    margin-top: pixeltorem(16px);
+    align-content: flex-end;
+    display: flex;
+  }
+
+  > .paymenttotalpricetitle {
+    font-size: pixeltorem(14px);
+    line-height: pixeltorem(19px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: calc(66.6666% - #{pixeltorem(24px)});
+      padding-left: pixeltorem(24px);
+    }
+  }
+
+  > .paymenttotalpriceunit {
+    font-family: 'Nunito Bold', sans-serif;
+    font-size: pixeltorem(18px);
+    line-height: pixeltorem(24px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 33.3333%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

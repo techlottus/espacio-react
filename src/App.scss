@@ -1,0 +1,117 @@
+@import "~@lottus23/lottus-css-utc/scss/abstracts/_main.scss";
+
+@font-face {
+  font-family: "Bebas";
+  src: url("./fonts/Bebas-Regular.otf");
+}
+
+.headerapp-top {
+  margin-top: pixeltorem(56px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl) - 1) {
+    margin-top: pixeltorem(72px);
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+    margin-top: pixeltorem(108px);
+  }
+}
+
+.footer-bottom {
+  .footer {
+    min-height: calc(100vh - #{pixeltorem(76.667px)});
+  }
+}
+
+.fixedcontainer-height {
+  top: pixeltorem(56px);
+  height: calc(100vh - #{pixeltorem(56px)});
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl) - 1) {
+    top: pixeltorem(72px);
+    height: calc(100vh - #{pixeltorem(72px)});
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+    top: pixeltorem(108px);
+    height: calc(100vh - #{pixeltorem(108px)});
+  }
+}
+
+.onlyheightscreen {
+  height: calc(100vh - #{pixeltorem(56px)});
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl) - 1) {
+    height: calc(100vh - #{pixeltorem(72px)});
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+    height: calc(100vh - #{pixeltorem(108px)});
+  }
+}
+
+.onlyheight {
+  top: pixeltorem(56px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl) - 1) {
+    top: pixeltorem(72px);
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+    top: pixeltorem(108px);
+  }
+}
+
+.alertfeedbackcmp {
+  position: fixed;
+  @extend .onlyheight;
+  right: pixeltorem(16px);
+  z-index: 100;
+  width: calc(100% - 2rem);
+  margin-top: pixeltorem(16px);
+  height: auto;
+  font-family: "Nunito Bold", sans-serif;
+  font-size: pixeltorem(16px);
+  line-height: pixeltorem(20px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: pixeltorem(480px);
+    font-size: pixeltorem(18px);
+    line-height: pixeltorem(24px);
+  }
+}
+
+.alertfeedbackcmpwithoutheight {
+  position: fixed;
+  top: 0;
+  right: pixeltorem(16px);
+  z-index: 100;
+  width: calc(100% - 2rem);
+  margin-top: pixeltorem(16px);
+  height: auto;
+  font-family: "Nunito Bold", sans-serif;
+  font-size: pixeltorem(16px);
+  line-height: pixeltorem(20px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: pixeltorem(480px);
+    font-size: pixeltorem(18px);
+    line-height: pixeltorem(24px);
+  }
+}
+
+.feedback-error {
+  position: fixed;
+
+  @extend .fixedcontainer-height;
+
+  right: 0;
+  z-index: 100;
+  width: 90%;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: 33.333%;
+  }
+}
+
+$brand : "utc"

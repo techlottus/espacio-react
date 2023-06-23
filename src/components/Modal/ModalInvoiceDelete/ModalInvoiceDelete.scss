@@ -1,0 +1,7 @@
+@import '../../../App.scss';
+@import '../Modal.scss';
+
+.modal-invoice-delete {
+  @extend .modal-container;
+
+}

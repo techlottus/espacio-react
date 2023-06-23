@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <AccountStatusResume/> should handleResume ToBeNull 1`] = `
+<div
+  className="accountstatusresume-container"
+>
+  <div
+    className="accountstatuserror"
+  />
+  <div
+    className="accountstatusresumeperfil"
+  />
+  <div
+    className="accountstatusresumebtn"
+  >
+    <div
+      className="downloadbtn"
+    >
+      <lottus-button />
+    </div>
+    <lottus-button />
+  </div>
+</div>
+`;
+
+exports[`Test <AccountStatusResume/> should init component 1`] = `
+<div
+  className="accountstatusresume-container"
+>
+  <div
+    className="accountstatuserror"
+  />
+  <div
+    className="accountstatusresumeperfil"
+  />
+  <div
+    className="accountstatusresumebtn"
+  >
+    <div
+      className="downloadbtn"
+    >
+      <lottus-button />
+    </div>
+    <lottus-button />
+  </div>
+</div>
+`;

@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <MainProcedures/> should init component 1`] = `
+Array [
+  <div
+    className="navbar"
+  >
+    <lottus-navbar />
+  </div>,
+  <div
+    className="main-procedures-container"
+  >
+    <div
+      className="breadcrumb"
+    >
+      <lottus-breadcrumb />
+    </div>
+    <div>
+      <h2
+        className="procedures-title"
+      >
+        Trámites / Servicios
+      </h2>
+    </div>
+    <div
+      className="procedures-btns"
+    >
+      <div
+        className="procedures-btn"
+      >
+        <lottus-button />
+      </div>
+      <div
+        className="procedures-btn"
+      >
+        <lottus-button />
+      </div>
+    </div>
+    <div
+      className="cards-procedures"
+    />
+  </div>,
+  "",
+  <div
+    className="footer"
+    style={
+      Object {
+        "bottom": "0",
+        "position": "relative",
+        "width": "100%",
+      }
+    }
+  >
+    <lottus-footer />
+  </div>,
+]
+`;

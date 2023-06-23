@@ -1,0 +1,114 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-degree {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background-color: map-get($palette-overlay, b-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modalcontent {
+    position: relative;
+    width: calc(50% - #{pixeltorem(48px)});
+    max-height: 90%;
+    overflow-y: auto;
+    background-color: map-get($palette-neutral, n00);
+    padding: pixeltorem(24px);
+    display: flex;
+    flex-direction: column;
+    border-radius: pixeltorem(8px);
+    box-shadow: 0 pixeltorem(20px) pixeltorem(60px) map-get($palette-overlay, ev-15);
+
+    @media only screen and (max-width: map-get($grid-breakpoints, m)) {
+        width: calc(75% - #{pixeltorem(80px)});
+        padding: pixeltorem(24px);
+      }
+  
+      @media only screen and (max-width: map-get($grid-breakpoints, s)) {
+        width: calc(80% - #{pixeltorem(80px)});
+        padding: pixeltorem(24px);
+      }
+  
+      @media only screen and (max-width: map-get($grid-breakpoints, xs)) {
+        width: calc(100% - #{pixeltorem(64px)});
+        padding: pixeltorem(16px);
+      }
+      
+      .modalheader {
+        width: 100%;
+        margin-bottom: pixeltorem(16px);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: flex-start;
+        color: map-get($palette-neutral, n80);
+      
+        .modaltitle {
+          font-family: 'Nunito Bold', sans-serif;
+          font-size: pixeltorem(24px);
+          line-height: pixeltorem(30px);
+        }
+      
+        .icon {
+          font-size: pixeltorem(24px);
+          color: map-get($palette-neutral, n60);
+          cursor: pointer;
+        }
+
+        @media only screen and (max-width: map-get($grid-breakpoints, m)) {
+          .modaltitle {
+            font-size: pixeltorem(18px);
+            line-height: pixeltorem(24px);
+          }
+        }
+      }
+    
+    .modaldescription{
+        font-family: 'Nunito', sans-serif;
+        padding: pixeltorem(20px) 0;
+    }
+    
+    .modalbody {
+        padding-bottom: pixeltorem(30px);
+    }
+    
+    .modalbtns {
+        margin-top: pixeltorem(24px);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          flex-direction: row;
+          display: flex;
+          justify-content: flex-end;
+        }
+      
+        .btnsecundary {
+            width: 100%;
+            margin-bottom: pixeltorem(16px);
+      
+          @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin-right: pixeltorem(16px);
+            margin-bottom: 0;
+            width: auto;
+          }
+        }
+
+        .btnprimary {
+            width: 100%;
+
+            @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+                width: auto;
+              }
+          }
+    }
+}
+}
+

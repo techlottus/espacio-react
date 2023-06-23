@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <EmptyState /> should init component 1`] = `
+<div
+  className="emptystate-container"
+>
+  <div
+    className="emptyimage"
+  >
+    <img
+      alt="img-empty"
+      className="imgempty"
+    />
+  </div>
+  <p
+    className="emptytitlemsg"
+  />
+</div>
+`;

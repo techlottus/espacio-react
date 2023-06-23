@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.loading-container {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($palette-overlay, b-50); 
+    top: 0;
+
+.loadingcontent {
+    
+    width: pixeltorem(16px);
+    height: pixeltorem(16px);
+    position: relative;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: pixeltorem(36px);
+        height: pixeltorem(36px);
+      }
+
+    .loading {
+        border-radius: 50%;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: pixeltorem(8px) solid map-get($palette-neutral, n10);
+        border-top: pixeltorem(8px) solid palette-colors($brand, p00);
+        animation: rotate 1s ease infinite;
+        top: pixeltorem(10px);
+        left: pixeltorem(10px);
+    }
+
+    @keyframes rotate {
+        from {transform: rotate(0);}
+        to {transform: rotate(360deg);}
+        
+    }
+}
+
+}

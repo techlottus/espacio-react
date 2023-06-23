@@ -1,0 +1,73 @@
+@import "../../../../../App.scss";
+
+.ulainstitutionprofile {
+  width: 100%;
+  margin-top: pixeltorem(22px);
+  font-family: 'Nunito';
+}
+
+.ulainstitutionnumber {
+  margin-top: pixeltorem(32px);
+  width: 100%;
+  font-family: "Nunito", sans-serif;
+  margin-bottom: pixeltorem(32px);
+
+  .ulainstitutiontitle {
+    padding-bottom: pixeltorem(16px);
+  }
+
+}
+
+.ulainstitutioninfolinks {
+  width: 100%;
+  margin-bottom: pixeltorem(12px);
+
+  .ulainstitutioninfolink {
+
+    &:first-child {
+      margin-bottom: pixeltorem(32px);
+    }
+
+  }
+
+  .ulainstitutioninfolinkwarnig {
+    margin-top: pixeltorem(8px);
+    font-size: pixeltorem(16px);
+    line-height: pixeltorem(24px);
+  }
+
+}
+
+.ulainstitutioninfonoti {
+  width: 100%;
+  margin-bottom: pixeltorem(32px);
+}
+
+.ulainstitutionformitem {
+  width: 100%;
+  margin: pixeltorem(32px) 0;
+}
+
+.ulainstitutioninfbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .ulainstitutioninfbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .ulainstitutioninfbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+}

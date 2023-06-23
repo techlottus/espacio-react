@@ -1,0 +1,43 @@
+@import '../../App.scss';
+
+.cardsurveycontainer {
+    border: 1px solid #9A9A9A;
+    border-radius: pixeltorem(8px);
+    padding: pixeltorem(16px);
+    margin: pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding: pixeltorem(24px);
+        width: 45%;
+        margin-bottom: pixeltorem(36px);
+      }
+    
+    .cardtext {
+        margin-bottom: pixeltorem(16px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            margin-bottom: pixeltorem(32px);
+        }
+
+        .cardtitle{
+        font-family: "Nunito Bold", sans-serif;
+        font-size: pixeltorem(14px);
+        margin-bottom: pixeltorem(8px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            font-size: pixeltorem(24px);
+            margin-bottom: pixeltorem(24px);
+          }
+        }
+    
+
+    .carddescription {
+        font-family: "Nunito", sans-serif;
+        font-size: pixeltorem(12px);
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            font-size: pixeltorem(16px);
+          }
+    }
+}
+}

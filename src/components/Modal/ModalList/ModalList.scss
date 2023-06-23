@@ -1,0 +1,33 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-list {
+  @extend .modal-container;
+  .modalbody {
+
+    .infosubjects {
+      font-family: "Nunito Bold", sans-serif;
+      font-size: pixeltorem(18px);
+      line-height: pixeltorem(19px);
+      padding-bottom: pixeltorem(16px);
+
+      .listsubjects {
+        padding: 0 0 pixeltorem(16px) pixeltorem(24px);
+        .subjectswrapper {
+            list-style-type: disc;
+        }
+      }
+    }
+    .modalbtns {
+      @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+        float: right;
+      }
+    }
+
+    .contentfeedbacktext {
+      font-family: "Nunito", sans-serif;
+      font-size: pixeltorem(16px);
+      line-height: pixeltorem(24px);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-constants {
+  @extend .modal-container;
+  align-items: inherit;
+  .modalcontent {
+    height: 80vh;
+    margin-top: 5vh;
+    overflow-y: auto;
+    @media only screen and (min-width: map-get($grid-breakpoints, s)) {
+      width: calc(60% - #{pixeltorem(48px)});
+      height: 80vh;
+    }
+    .modalheader {
+      display: flex;
+      justify-content: space-between;
+    }
+    .modalbtns {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+}

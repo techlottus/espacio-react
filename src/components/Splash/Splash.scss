@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.splash-container {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: map-get($palette-neutral, n00); 
+
+    .splash-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .splashimg {
+            width: pixeltorem(192px);
+            height: pixeltorem(193px);
+            margin-bottom: pixeltorem(16px);
+
+            @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl)){
+                width: pixeltorem(292px);
+                height: pixeltorem(293px);
+              }
+        }
+
+        .splashtext {
+            font-family: 'Nunito', sans-serif;
+            font-size:pixeltorem(24px);
+            color: map-get($palette-neutral, n80);
+            text-align: center;
+            width: 70%;
+            
+
+            @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl)){
+                font-size:pixeltorem(36px);
+              }
+        }
+
+    }
+}

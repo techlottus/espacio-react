@@ -1,0 +1,133 @@
+export const infoProceduresMock = {
+  requestInquiryAll: null,
+  proceduresAll: [
+    {
+      path: "/procedures-flows/study-record/information",
+      icon: "description",
+      type: "study-record",
+      title: "Constancia de estudio",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Documento con el que cada estudiante puede acreditar toda su trayectoria académica. En dicho documento se certifica oficialmente los estudios que una persona ha cursado con éxito.",
+        price: "$480.00 - $590.00",
+      },
+    },
+    {
+      path: "/procedures-flows/certificate-study/information",
+      icon: "star",
+      type: "certificate-study",
+      title: "Certificado de estudios",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Documento donde se declara oficialmente que haz acreditado tu plan de estudios, este puede ser completo o parcial, incluye fechas, calificaciones, nombre de las unidades de aprendizaje, sellos y firmas de autoridades.",
+        price: "$480.00 - $590.00",
+      },
+    },
+    {
+      path: "/procedures-flows/academic-history/information",
+      icon: "event_available",
+      type: "academic-history",
+      title: "Historial académico",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Documento que muestra todas las asignaturas del plan de estudios correspondiente y la calificación obtenida en cada asignatura cursada. Informa el total de créditos aprobados, así como el porcentaje de avance acumulado.",
+        price: "$480.00",
+      },
+    },
+    {
+      path: "/procedures-flows/equivalence-study/information",
+      icon: "search",
+      type: "equivalence-study",
+      title: "Equivalencia de estudio",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Es el documento que se expide de una modalidad educativa a otra, que facilita el tránsito de educandos permitiendote poder ingresar a la universidad con antecedentes de otras instituciones.",
+        price: "$480.00",
+      },
+    },
+    {
+      path: "/procedures-flows/reinstatement/information",
+      icon: "grading",
+      type: "reinstatement",
+      title: "Reincorporación",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Trámite mediante el cual la universidad otorga validez oficial a estudios realizados en el extranjero, siempre y cuando sean equiparables con estudios que se impartan en el Sistema Educativo Nacional.",
+        price: "$480.00",
+      },
+    },
+    {
+      path: "/procedures-flows/scholarship/information",
+      icon: "request_quote",
+      type: "scholarship",
+      title: "Becas",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Descarga aquí el formato de beca, completa tus datos, firma, escanea y súbela para iniciar tu trámite de solicitud. Una vez enviado deberás esperar la evaluación de tu solicitud para recibir una respuesta. ",
+        price: "Sin costo",
+      },
+    },
+    {
+      icon: "school",
+      type: "degreeInProgress",
+      title: "Titulación Cursando",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Documento que acredita la culminación de tu carrera. Es la demostración de tu capacidad como profesionista y certifica que cuentas con habilidades y destrezas que te convierten en alguien excepcional.",
+        price: "$13,560.00",
+      },
+    },
+    {
+      path: "",
+      icon: "school",
+      type: "",
+      title: "Servicio Social",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Documento que acredita la culminación de tu carrera. Es la demostración de tu capacidad como profesionista y certifica que cuentas con habilidades y destrezas que te convierten en alguien excepcional.",
+        price: "$13,560.00",
+      },
+    },
+    {
+      path: "/procedures-flows/revalidate-study/information",
+      icon: "request_quote",
+      type: "revalidate-study",
+      title: "Revalidación de estudios",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "¿Estudiaste algo relacionado con tu programa actual en una universidad extranjera? Solicita una Revalidación para acreditar las asignaturas con contenidos similares que ya cursaste.",
+        price: "$1900.00",
+      },
+    },
+    {
+      path: "/procedures-flows/admission-certificate/information",
+      icon: "portrait",
+      type: "admission-certificate",
+      title: "Acta de admisión",
+      disabled: false,
+      isContent: true,
+      content: {
+        text: "Solicita este documento una vez que tengas el dictamen de revalidación como reconocimiento de tus  estudios cursados en el extranjero, para completar tu inscripción a la ULA.",
+      price: "$500.00",
+      },
+    },
+  ],
+  profile: {
+    name: "Jorge Hernandez",
+    items: [
+      "200029578",
+      "Utc distancia",
+      "Licenciatura 334",
+      "Administración de empresas",
+    ],
+  },
+};

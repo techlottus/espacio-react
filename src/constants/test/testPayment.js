@@ -1,0 +1,21 @@
+export const testPaymenTitle = {
+  cardDah: 'test-payment-card-dash-p',
+  cardConcept: 'test-payment-card-concept',
+  toogle: 'test-payment-toogle-invoice',
+  btnNextConcept: 'test-payment-btn-next-concept',
+  cardInvoice: "test-payment-card-invoice",
+  cardInvoiceDelete: "test-payment-card-invoice-delete",
+  linkInvoice: "test-payment-link-invoice",
+  btnNextInvoice: "test-payment-btn-next-invoice",
+  btnBackNextInvoice: "test-btn-payment-back-invoice",
+  cardPayment: "test-payment-card-payment",
+  cardCredit: "test-payment-card-credit",
+  btnBackPayment: "test-payment-btn-back-payment",
+  btnNextPayment: 'test-payment-btn-next-payment',
+  btnModalPayment: 'test-payment-btn-modal-payment',
+  btnModalBack: 'test-payment-btn-modal-back',
+  btnModalExitAccept: 'test-payment-btn-modal-exit-accept',
+  btnModalExitCancel: 'test-payment-btn-modal-exit-cancel',
+  btnModalToogleCancel: 'test-payment-btn-modal-toogle-cancel',
+  btnModalToogleAccept: 'test-payment-btn-modal-toogle-accept'
+}

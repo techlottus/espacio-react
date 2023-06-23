@@ -1,0 +1,36 @@
+@import "../../App.scss";
+
+.emptystate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
+  .emptyimage {
+    display: flex;
+    align-items: center;
+    margin-top: pixeltorem(36px);
+
+    .imgempty {
+      width: pixeltorem(200px);
+    }
+  }
+
+  .emptytitlemsg {
+    font-family: "Nunito Bold", sans-serif;
+    font-size: pixeltorem(18px);
+    margin-top: pixeltorem(54px);
+    text-align: center;
+  }
+
+  .emptydescriptionmsg {
+    font-family: "Nunito", sans-serif;
+    font-size: pixeltorem(18px);
+    padding-top: pixeltorem(16px);
+    text-align: center;
+  }
+
+  .emptybtn {
+    margin-top: pixeltorem(54px);
+  }
+}

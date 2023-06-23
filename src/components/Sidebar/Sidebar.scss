@@ -1,0 +1,123 @@
+@import "../../App.scss";
+
+.sidebar-container {
+  background-color: map-get($palette-overlay, b-50);
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  display: block;
+
+  .sidebarcontent {
+    width: 100%;
+    height: 100vh;
+    background-color: map-get($palette-neutral, n00);
+    position: absolute;
+    right: 0;
+    transition: transform 0.5s ease-in-out;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 35%;
+    }
+
+    .sidebarheader {
+      @extend .sidebar-header;
+    }
+
+    .sidebarbody {
+      @extend .sidebar-body;
+    }
+  }
+}
+
+.sidebar-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .sidebarheadericon {
+    width: 100%;
+    margin-top: pixeltorem(20px);
+    margin-left: pixeltorem(18px);
+    margin-bottom: pixeltorem(32px);
+
+    > .iconleft {
+      cursor: pointer;
+      font-size: pixeltorem(20px);
+    }
+
+  }
+
+}
+
+.sidebar-body {
+  width: calc(100% - #{pixeltorem(48px)});
+  height: calc(100% - #{pixeltorem(76px)});
+  padding: 0 pixeltorem(24px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: calc(100% - #{pixeltorem(96px)});
+    padding: 0 pixeltorem(48px);
+  }
+
+  .sidebarbodytitle {
+    font-size: pixeltorem(24px);
+    font-family: "Nunito Bold", sans-serif;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      font-size: pixeltorem(32px);
+      text-align: center;
+    }
+  }
+
+  .sidebarbodyimg {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      margin-top: pixeltorem(24px);
+      width: pixeltorem(120px);
+      margin-bottom: pixeltorem(32px);
+    }
+  }
+
+  .sidebarbodyitems {
+    width: 100%;
+  }
+
+  .sidebarbodycardrequests {
+    width: 100%;
+
+    .sidebarbodycardrequest {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  .sidebarbodytable {
+    margin-top: pixeltorem(24px);
+
+    .iconback {
+      display: flex;
+      align-items: center;
+      margin-bottom: pixeltorem(72px);
+      color: palette-colors($brand, p00);
+      cursor: pointer;
+
+      span {
+
+        &:first-child {
+          margin-right: pixeltorem(12px);
+        }
+
+      }
+    }
+  }
+}

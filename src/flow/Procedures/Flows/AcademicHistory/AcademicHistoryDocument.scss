@@ -1,0 +1,47 @@
+@import "../../../../App.scss";
+
+.academicdocumentscontainer {
+  font-family: "Nunito", sans-serif;
+  margin-top: pixeltorem(22px);
+  margin-bottom: pixeltorem(32px);
+  .forminformationacademichistory {
+    padding-top: pixeltorem(32px);
+    .academichistoryinfonumber {
+      p {
+        font-size: 14px;
+        line-height: 19px;
+      }
+      .academichistoryitem {
+        padding-bottom: pixeltorem(32px);
+      }
+    }
+  }
+  .academichistoryupload {
+    .academichistoryinfouploadtitle {
+      padding-bottom: pixeltorem(36px);
+    }
+    .academichistoryuploadinput {
+      padding-bottom: pixeltorem(52px);
+    }
+  }
+  .academichistorybtns {
+    margin-top: pixeltorem(48px);
+    margin-bottom: pixeltorem(120px);
+    width: 100%;
+    .academicbtn {
+      height: 100%;
+      &:nth-child(1) {
+        margin-bottom: pixeltorem(16px);
+      }
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      .academicbtn {
+        &:first-child {
+          margin-bottom: 0;
+          margin-right: pixeltorem(16px);
+        }
+      }
+    }
+  }
+}

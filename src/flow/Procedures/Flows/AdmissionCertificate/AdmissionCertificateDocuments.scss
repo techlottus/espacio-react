@@ -1,0 +1,46 @@
+@import '../../../../App.scss';
+
+.admissioncertificatedocs-content {
+  margin-top: pixeltorem(32px);
+  margin-bottom: pixeltorem(36px);
+  font-family: "Nunito", sans-serif;
+  font-size: pixeltorem(16px);
+
+  .admissioncertificatedocsmax {
+    font-family: 'Nunito',sans-serif;
+    font-size: pixeltorem(16px);
+    line-height: pixeltorem(21px);
+    margin-top: pixeltorem(32px);
+    width: 100%;
+    margin-bottom: pixeltorem(36px);
+  }
+
+  .admissioncertificatetitle {
+    font-family: "Nunito Bold", sans-serif;
+    margin: pixeltorem(32px) 0 pixeltorem(16px) 0;
+  }
+}
+
+.admissioncertificatedocsbtns {
+  margin-top: pixeltorem(48px);
+  margin-bottom: pixeltorem(120px);
+  width: 100%;
+
+  .admissioncertificatedocbtn {
+    height: 100%;
+    &:nth-child(1) {
+      margin-bottom: pixeltorem(16px);
+    }
+  }
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    display: flex;
+
+    .admissioncertificatedocbtn {
+      &:nth-child(1) {
+        margin-bottom: 0;
+        margin-right: pixeltorem(16px);
+      }
+    }
+  }
+}

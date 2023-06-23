@@ -1,0 +1,74 @@
+@import '../../App.scss';
+
+.payment-container {
+  position: relative;
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: column;
+  @extend .headerapp-top;
+  color: map-get($palette-neutral, n80);
+  margin-bottom: pixeltorem(250px);
+
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    flex-direction: row;
+    margin-bottom: 0;
+  }
+
+  .paymentstages {
+    width: calc(100% - #{pixeltorem(32px)});
+    padding: pixeltorem(36px) pixeltorem(16px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: calc(50% - #{pixeltorem(72px)});
+      padding: pixeltorem(36px) pixeltorem(24px) pixeltorem(36px) pixeltorem(48px);
+    }
+  
+    .paymenttitle {
+      margin-top: pixeltorem(36px);
+      margin-bottom: pixeltorem(36px);
+      font-size: pixeltorem(24px);
+      font-family: 'Nunito Bold', sans-serif;
+  
+      .paymenticon {
+        margin-left: pixeltorem(8px);
+      }
+    }
+  
+    .paymentsteps {
+      width: 100%;
+      height: pixeltorem(100px);
+      margin-bottom: pixeltorem(40px);
+    }
+  
+    .paymentcontent {
+      width: 100%;
+      margin-bottom: pixeltorem(180px);
+
+      > .paymentcontentchild {
+        width: 100%;
+        height: 100%;
+      }
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .paymentresume {
+    right: 0;
+    position: fixed;
+    display: none;
+    width: 50%;
+    @extend .fixedcontainer-height;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: block;
+    }
+
+  }
+  
+}
+

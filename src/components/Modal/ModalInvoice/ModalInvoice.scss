@@ -1,0 +1,24 @@
+@import '../../../App.scss';
+@import '../Modal.scss';
+
+.modal-invoice {
+  @extend .modal-container;
+  font-family: 'Nunito', sans-serif;
+
+  .modaltextinvoice {
+    margin-bottom: pixeltorem(16px);  
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .modaltextstickinvoice {
+    font-size: pixeltorem(12px);
+    line-height: pixeltorem(16px);
+    font-family: 'Nunito', sans-serif;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      font-size: pixeltorem(14px);
+      
+    }
+  }
+
+}

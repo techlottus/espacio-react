@@ -1,0 +1,25 @@
+@import '../../../App.scss';
+
+.welcome-container{
+    padding: pixeltorem(70px) pixeltorem(5px) 0 pixeltorem(5px);
+    margin: 0 pixeltorem(15px);
+    font-family: "Nunito", sans-serif;
+
+    .title-container{
+        .welcome-title{
+            color: map-get($palette-neutral, n40);
+            text-align: center;
+            font-size: pixeltorem(24px);
+            padding-top: pixeltorem(100px);
+        }
+    }
+    .img-container{
+        text-align: center;
+        .img-notebook{
+            width: 65%;
+            object-fit: fill;
+            object-position: 0 pixeltorem(90px);
+        }
+    }
+
+}

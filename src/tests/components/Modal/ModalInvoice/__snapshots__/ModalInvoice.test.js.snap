@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <ModalInvoice/> should init component 1`] = `
+<div
+  className="modal-invoice"
+>
+  <div
+    className="modalcontent"
+  >
+    <div
+      className="modalheader"
+    >
+      <span
+        className="material-icons icon iconright"
+      >
+        help
+      </span>
+      <div
+        className="title"
+      />
+    </div>
+    <div
+      className="modalbody"
+    >
+      <p>
+         
+      </p>
+      <p />
+      <p />
+      <p />
+      <p>
+         
+      </p>
+      <p>
+         
+      </p>
+      <div
+        className="modalbtns"
+      >
+        <div
+          className="btnsecundary"
+        >
+          <lottus-button />
+        </div>
+        <div
+          className="btnprimary"
+        >
+          <lottus-button />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

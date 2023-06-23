@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Notification/> should init component 1`] = `
+<div
+  className="noti-container"
+>
+  <div
+    className="notiitems"
+  />
+</div>
+`;

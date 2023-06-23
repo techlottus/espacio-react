@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <TermsPub/> should init component 1`] = `
+<div
+  className="terms-public-page-container"
+>
+  <div
+    className="terms-content"
+  >
+    <h2
+      className="termshow-title"
+    >
+      Terminos y condiciones
+    </h2>
+    <div
+      className="terms-map"
+      key="0"
+    >
+      <h3
+        className="termshow-subtitle"
+      >
+        Identidad y domicilio del responsable
+      </h3>
+      <div
+        className="termshow-texts"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p class=\\"termshow-text\\"> El Centro Educativo Tres Culturas, S.C. y la Universidad de las Tres Culturas, S (en lo sucesivo conjuntamente la “UTC”), con domicilio en Calle Londres 71-PA, colonia Juárez Alcaldía Cuauhtémoc, C.P. 06600, Ciudad de México, son sociedades constituidas de conformidad con las leyes de los Estados Unidos Mexicanos, ofreciendo sus servicios en todo el territorio nacional comprometidas con la protección de sus Datos Personales, cuando son responsables de su uso, manejo y confidencialidad; por tanto, es importante informarle que los Datos Personales que UTC recabe sobre Usted, son necesarios para verificar y confirmar su identidad, integrar los expedientes para administrar y operar los servicios que presta, a efecto de cumplir con el objeto de UTC de conformidad con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de Particulares (la “Ley de Datos Personales”).</p> <p class=\\"termshow-text\\"> El Centro Educativo Tres Culturas, S.C. y la Universidad de las Tres Culturas, S.C. (en lo sucesivo conjuntamente la “UTC”), con domicilio en Calle Londres 71-PA, colonia Juárez, Alcaldía Cuauhtémoc, C.P. 06600, Ciudad de México, son sociedades constituidas de conformidad con las leyes de los Estados Unidos Mexicanos, ofreciendo sus servicios en todo el territorio nacional, y comprometidas con la protección de sus Datos Personales, cuando son responsables de su uso, manejo y confidencialidad; por tanto, es importante informarle que los Datos Personales que UTC recabe sobre Usted, son necesarios para verificar y confirmar su identidad, integrar los expedientes para administrar y operar los servicios que presta, a efecto de cumplir con el objeto de UTC de conformidad con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de Particulares (la “Ley de Datos Personales”).</p> <p class=\\"termshow-text\\"> El Centro Educativo Tres Culturas, S.C. y la Universidad de las Tres Culturas, S.C. (en lo sucesivo conjuntamente la “UTC”), con domicilio en Calle Londres 71-PA, colonia Juárez, Alcaldía Cuauhtémoc, C.P. 06600, Ciudad de México, son sociedades constituidas de conformidad con las leyes de los Estados Unidos Mexicanos, ofreciendo sus servicios en todo el territorio nacional, y comprometidas con la protección de sus Datos Personales, cuando son responsables de su uso, manejo y confidencialidad; por tanto, es importante informarle que los Datos Personales que UTC recabe sobre Usted, son necesarios para verificar y confirmar su identidad, integrar los expedientes para administrar y operar los servicios que presta, a efecto de cumplir con el objeto de UTC de conformidad con lo establecido en la Ley Federal de Protección de Datos Personales en Posesión de Particulares (la “Ley de Datos Personales”). </p>",
+          }
+        }
+      />
+    </div>
+    <div
+      className="terms-map"
+      key="1"
+    >
+      <h3
+        className="termshow-subtitle"
+      >
+        Datos personales que recaba la UTC
+      </h3>
+      <div
+        className="termshow-texts"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p class='termshow-text'>Son los datos de identificación, laborales, financieros o académicos que usted nos proporcione de forma directa, ya sea personalmente o por medios electrónicos, ópticos, sonoros, visuales o a través de cualquier otra tecnología como internet o vía telefónica, o que usted publique mediante las redes sociales, obteniendo su consentimiento expreso, por escrito, vía electrónica y/o cualquier otro medio de autenticación, para recabarlos, tratarlos y/o transferirlos en términos de la Ley de Datos Personales. La UTC no trata datos personales sensibles. </p><p class='termshow-text'> La UTC recaba y da tratamiento a los siguientes datos personales de manera lícita, siempre y cuando usted no manifieste objeción alguna en el momento que nos proporciona sus datos personales directamente o manifieste su oposición posterior por los medios descritos en el presente aviso.</p><p class='termshow-text'> Se consideran datos personales el nombre (s) y apellido, edad, fecha de nacimiento, nacionalidad, domicilio, dirección de correo electrónico, nombre de identificación en redes sociales, número telefónico, estudios previos y datos personales patrimoniales como nivel de ingresos, datos laborales de contacto de los empleadores, dependientes económicos y demás de naturaleza análoga.</p>",
+          }
+        }
+      />
+    </div>
+    <div
+      className="terms-map"
+      key="2"
+    >
+      <h3
+        className="termshow-subtitle"
+      >
+        Finalidades
+      </h3>
+      <div
+        className="termshow-texts"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p class='termshow-text'>La UTC tratará sus datos personales para las siguientes finalidades que hayan dado origen y sean necesarias para la relación jurídica que tengamos con usted: dar cumplimiento a obligaciones, facturación y cobranza, determinar su admisibilidad e inscribirlo al programa educativo que usted haya seleccionado, impartir nuestros programas académicos, proveer servicios o productos requeridos y registro y gestión de servicios o aplicaciones que se ofrecen en nuestro sitio de internet.</p> <p class='termshow-text'>La UTC también podrá utilizar sus datos para las siguientes finalidades que no son necesarias para la relación jurídica antes mencionada pero que nos permiten y facilitan brindarle una mejor atención: informar sobre cambios o nuevos programas o servicios que puedan ser de su interés, esfuerzos de mercadotecnia o publicidad, evaluar la calidad de nuestros programas o servicios, realizar estudios internos sobre hábitos de consumo, fomentar la comunicación y colaboración entre miembros de la comunidad de la UTC a través de redes sociales y para analizar cómo se utilizan nuestros servicios y nuestro sitio de internet, así como para mejorarlos. Si usted no desea que la UTC trate sus datos personales para estos fines adicionales, por favor envíe un correo electrónico a datospersonales@utc.mx.</p> <p class='termshow-text'>Adicionalmente, utilizaremos sus datos para las finalidades siguientes:</p><ul class='termshow-ul'><li class='termshow-li'>Realizar estudios internos y externos estadísticos sobre los servicios educativos y actividades deportivas y culturales desarrollados en la UTC.</li><li class='termshow-li'>Promoción de servicios ofrecidos por la UTC y sus empresas relacionadas.</li>      <li class='termshow-li'>Seguimiento y atención de alumnos.</li>      <li class='termshow-li'> Atención y servicios a egresados.</li>      <li class='termshow-li'>Encuestas y evaluaciones de servicios educativos o productos.</li>     <li class='termshow-li'> Aquellos relacionados con la identificación, operación, administración del expediente de alumnos y egresados, así como aquellos procesos análogos que sean necesarios para la prestación de los servicios.</li>    <li class='termshow-li'>  Obtener de los empleadores la opinión de los alumnos egresados y que formen parte de la fuerza de trabajo del empleador, respecto de la calidad académica de los egresados, de su desempeño y de las necesidades de egresado profesional de la institución.</li>     <li class='termshow-li'> Contar con un expediente académico y/o administrativo, así como la creación de perfil del alumno y/o colaborador.</li> </ul>",
+          }
+        }
+      />
+    </div>
+    <div
+      className="terms-map"
+      key="3"
+    >
+      <h3
+        className="termshow-subtitle"
+      >
+        Protección de los Datos Personales
+      </h3>
+      <div
+        className="termshow-texts"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p class='termshow-text'>Para cumplir con las finalidades previstas en el presente aviso, los Datos Personales serán recabados y tratados bajo estrictas medidas de seguridad, y confidencialidad. Por ello, Los Datos Personales que sean proporcionados, que actualmente o en el futuro obren en posesión de UTC, serán manejados, tratados y/o utilizados bajo los principios de licitud, consentimiento, calidad, información, proporcionalidad y responsabilidad, por lo que UTC se compromete a observar y cumplir los citados principios, así como a no vender, alquilar, compartir o divulgar su información personal con fines ilícitos o contrarios a los fines para lo cual fueron proporcionados, salvo los casos excepcionales señalados en la Ley de Datos Personales y su respectivo Reglamento.</p><p class='termshow-text'>UTC realizará sus mejores esfuerzos para proteger los Datos Personales y salvaguardar la seguridad en los sistemas utilizados para almacenar los Datos Personales.</p>     <p class='termshow-text'> Sin embargo, UTC no asume ninguna obligación de mantener confidencial cualquier otra información que el titular proporcione de manera adicional a la solicitada, incluyendo aquella información que el titular facilite a través formularios en el Sitio web.</p>      <p class='termshow-text'>Los Datos Personales que proporcione son almacenados en servidores alojados en instalaciones seguras de UTC.</p>      <p class='termshow-text'>Con la finalidad de asistirlo de forma más eficaz, todas las transacciones en línea son administradas mediante un servidor seguro, el cual recibe la información necesaria para verificar y autorizar el cargo a su método de pago; transferencias interbancarias, tarjetas bancarias y/o depósitos en tiendas de conveniencia, para así procesar y enviar su transacción. Dichas transacciones relacionadas con sus operaciones en línea son administradas bajo altos estándares de seguridad y protección.</p>",
+          }
+        }
+      />
+    </div>
+    <div
+      className="terms-map"
+      key="4"
+    >
+      <h3
+        className="termshow-subtitle"
+      >
+        Transferencias
+      </h3>
+      <div
+        className="termshow-texts"
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<p class='termshow-text'>Nos comprometemos a no transferir su información personal a terceros sin su consentimiento, salvo las excepciones previstas en el artículo 37 de la Ley Federal de Protección de Datos Personales en Posesión de los Particulares, así como a realizar esta transferencia en los términos que fija la normatividad aplicable.</p>     <p class='termshow-text'> Por medio del presente se informa que, UTC es parte de un grupo corporativo propiedad de Lottus Education, S.A.P.I. de C.V., con diversas empresas subsidiarias y afiliadas, por lo que, sus datos pueden ser compartidos con nuestras empresas afiliadas, filiales o subsidiarias así como con terceros prestadores de servicios, lo cual en todo momento se hará conforme a la normatividad aplicable, además dichos datos también podrán ser compartidos a un tercero en caso de reorganización, venta, fusión, empresa conjunta, cesión, transferencia u otra disposición de todo o parte de nuestro negocio, activos o acciones, incluso en el caso de reestructuración corporativa o para prospectos de inversionistas, mismos que, en todo momento, estarán obligados a tratar dichos datos de manera confidencial y a no aprovecharse de ellos sin el consentimiento de sus respectivos titulares.</p>     <p class='termshow-text'> En este sentido los datos personales anteriormente descritos podrán ser transferidos y tratados por los terceros abajo descritos. Todas las finalidades mencionadas están en los supuestos del art. 37 de la ley, por lo que no es necesario obtener el consentimiento para su transferencia:</p>      <ul class='termshow-ul'><li class='termshow-li'>Bancos: Realizar pagos y/o devoluciones.</li>     <li class='termshow-li'> Medios de comunicación: Promoción y cumplimiento de eventos y sorteos.</li><li class='termshow-li'>Aseguradoras: Tramite de seguros y garantías.</li><li class='termshow-li'>Despachos: Consultoría jurídica y gestión de cobranza.</li><li class='termshow-li'>Dependencias gubernamentales: Cumplimiento de la legislación aplicable.</li>      <li class='termshow-li'>Firmas de servicios profesionales: Auditoria, encuestas a alumnos y egresados, consultoría y soporte</li> <li class='termshow-li'>Entidades certificadoras: Validación en el cumplimiento de mejores prácticas.</li> </ul>",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

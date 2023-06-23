@@ -1,0 +1,61 @@
+@import "../../../../App.scss";
+
+.benefits-single-container {
+  padding: pixeltorem(34px) 0;
+  border-bottom: pixeltorem(3px) solid palette-colors($brand, p00);
+  font-family: "Nunito", sans-serif;
+  .benefitsinfo {
+    display: block;
+    padding-bottom: pixeltorem(36px);
+    h2 {
+      font-size: pixeltorem(24px);
+      padding-bottom: pixeltorem(8px);
+      font-family: "Bebas", sans-serif;
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        font-size: pixeltorem(56px);
+        padding-bottom: pixeltorem(8px);
+      }
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: pixeltorem(24px);
+      padding-bottom: pixeltorem(36px);
+    }
+    .benefitsimage {
+      padding-bottom: pixeltorem(24px);
+      filter: drop-shadow(
+        0px pixeltorem(5px) pixeltorem(25px) rgba(0, 0, 0, 0.25)
+      );
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        padding-bottom: 0;
+      }
+      img {
+        width: 90%;
+      }
+    }
+    .benefitstext {
+      display: block;
+      .subtitle {
+        color: map-get($palette-neutral, n90);
+        font-weight: bold;
+        padding-bottom: pixeltorem(10px);
+        padding-top: pixeltorem(24px);
+      }
+      .textbody {
+        color: map-get($palette-neutral, n90);
+        padding-top: pixeltorem(10px);
+      }
+      .validity {
+        color: palette-colors($brand, p00);
+        padding-top: pixeltorem(20px);
+      }
+    }
+  }
+  .benefitscontact {
+    width: 100%;
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      width: 50%;
+    }
+  }
+}

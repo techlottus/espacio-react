@@ -1,0 +1,10 @@
+@import "../../App.scss";
+
+.helpbutton-container {
+  display: flex;
+  align-items: center;
+
+  .helpbutton-content {
+    margin-right: pixeltorem(16px);
+  }
+}

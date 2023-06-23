@@ -1,0 +1,11 @@
+@import './App.scss';
+
+.errorboundary-container {
+  width: 100%;
+  @extend .headerapp-top;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;  
+}

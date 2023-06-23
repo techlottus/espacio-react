@@ -1,0 +1,33 @@
+@import '../../../../App.scss';
+
+.accountstatustable-container {
+  width: 100%;
+  font-family: 'Nunito', sans-serif;
+  line-height: pixeltorem(21px);
+  font-size: pixeltorem(14px);
+
+
+  > .accountstatusrow {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid map-get($palette-neutral, n10);
+    > .accountstatuscol {
+      flex: 1;
+      width: calc(100% - #{pixeltorem(32px)});
+      padding: pixeltorem(8px) pixeltorem(16px);
+
+      &.-focus {
+        color: palette-colors($brand, p00);
+      }
+
+      &.-right {
+        text-align: right;
+      }
+
+    }
+
+    &.-total {
+      font-family: 'Nunito Bold', sans-serif;
+    }
+  }
+}

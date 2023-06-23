@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <PaymentMethods/> should init component 1`] = `
+<div
+  className="methods"
+>
+  <p
+    className="methodstitle"
+  >
+    Selecciona el método de pago seguro que más se adapte a tus necesidades
+  </p>
+  <div
+    className="methodscards"
+  >
+    <div
+      className="methodscard"
+      key="0devmethods"
+    >
+      <lottus-card-payment />
+    </div>
+    <div
+      className="methodscard"
+      key="1devmethods"
+    >
+      <lottus-card-payment />
+    </div>
+  </div>
+  <div
+    className="methodsaction"
+  >
+    <lottus-button />
+  </div>
+</div>
+`;

@@ -1,0 +1,77 @@
+@import '../../../App.scss';
+
+.terms-container {
+  padding: pixeltorem(48px) pixeltorem(5px);
+  margin: 0 pixeltorem(15px);
+  font-family: "Nunito", sans-serif;
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    padding: pixeltorem(48px) pixeltorem(5px) 0 pixeltorem(5px);
+
+  }
+
+  .termsbtns-title{
+    font-family: 'Bebas',sans-serif;
+    font-size: pixeltorem(42px);
+    padding-bottom: pixeltorem(5px);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          font-size: pixeltorem(56px);
+      }
+    
+  }
+  .termsbtns-text {
+    font-size: pixeltorem(14px);
+    line-height: normal;
+  }
+
+  .buttons {
+    padding: pixeltorem(15px) 0 pixeltorem(10px) 0;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: pixeltorem(20px) 0;
+    }
+
+    .button-wrap {
+        padding: pixeltorem(8px) 0;
+
+        button{
+          width: 100%;
+          text-align: center;
+          justify-content: center;
+
+          @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+            width: auto;
+           }
+        }
+    }
+  }
+  .newsletter-wrap{
+    display: flex;
+    align-items: center;
+
+    > .termsbtns-text{
+      padding-left: pixeltorem(14px);
+    }
+  }
+
+  .progress-bar{
+    padding: pixeltorem(36px) 0 pixeltorem(15px) 0;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding: pixeltorem(35px) 0;
+    }
+  }
+
+  .send-btn{
+      button{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+         width: auto;
+        }
+      }
+  }
+}

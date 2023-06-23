@@ -1,0 +1,10 @@
+@import '../../../App.scss';
+@import "../Modal.scss";
+
+.modal-information {
+  @extend .modal-container;
+
+  .description{
+    font-family: 'Nunito', sans-serif;
+  }
+}

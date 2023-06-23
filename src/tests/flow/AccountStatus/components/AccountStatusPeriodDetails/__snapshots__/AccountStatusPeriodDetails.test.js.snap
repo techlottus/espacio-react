@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <AccountStatusPeriodDetails /> should init component 1`] = `
+<div
+  className="accountdetails-container"
+>
+  <h2
+    className="headingdetails"
+  >
+    Detalles por periodo
+  </h2>
+  <p
+    className="textdetails"
+  >
+    Selecciona el programa y el periodo para ver los detalles de los movimientos; se clasifican de la siguiente manera:
+  </p>
+  <div
+    className="detail-bullets"
+  >
+    <p
+      className="org-p"
+    >
+      <span
+        className="org-bullet"
+      />
+      Con adeudo
+    </p>
+    <p
+      className="gr-p"
+    >
+      <span
+        className="gr-bullet"
+      />
+      Pagados
+    </p>
+    <p
+      className="pr-p"
+    >
+      <span
+        className="pr-bullet"
+      />
+      Por pagar
+    </p>
+  </div>
+  <div
+    className="accountdetails-selects"
+  >
+    <div
+      className="select-details"
+    >
+      <p
+        className="textprogram"
+      >
+        Programa
+      </p>
+      <lottus-select />
+    </div>
+    <div
+      className="select-details"
+    >
+      <p
+        className="textprogram"
+      >
+        Periodo
+      </p>
+      <lottus-select />
+    </div>
+  </div>
+  <div
+    className="accountdetails-period"
+  >
+    <div>
+      <h2
+        className="headingdetails"
+      >
+        Periodo 
+      </h2>
+      <div
+        className="calendar"
+      >
+        <span
+          className="material-icons icon iconright"
+        >
+          calendar_today
+        </span>
+        <p
+          className="textperiod"
+        />
+      </div>
+    </div>
+    <div>
+      <p>
+        Saldo del periodo
+      </p>
+      <p
+        className="detail-amount textperiod"
+      >
+        $0.00
+      </p>
+    </div>
+  </div>
+  <div>
+    <lottus-label />
+  </div>
+  <div
+    className="accountdetails-movements"
+  >
+    <h2
+      className="headingdetails"
+    >
+      Movimientos
+    </h2>
+    <div />
+  </div>
+</div>
+`;

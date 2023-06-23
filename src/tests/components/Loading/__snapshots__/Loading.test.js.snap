@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Loading/>  1`] = `
+<div
+  className="loading-container"
+  style={
+    Object {
+      "visibility": "hidden",
+    }
+  }
+>
+  <div
+    className="loadingcontent"
+  >
+    <div
+      className="loading"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test <Loading/> should hidden false 1`] = `
+<div
+  className="loading-container"
+  style={
+    Object {
+      "visibility": "hidden",
+    }
+  }
+>
+  <div
+    className="loadingcontent"
+  >
+    <div
+      className="loading"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test <Loading/> should init component 1`] = `
+<div
+  className="loading-container"
+  style={
+    Object {
+      "visibility": "visible",
+    }
+  }
+>
+  <div
+    className="loadingcontent"
+  >
+    <div
+      className="loading"
+    />
+  </div>
+</div>
+`;

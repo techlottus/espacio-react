@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <Procedures/> should init component 1`] = `
+<div
+  className="procedures-container"
+>
+  <div
+    className="navbar"
+  >
+    <lottus-navbar />
+  </div>
+  <div
+    className="procedurelayout-container"
+  >
+    <div
+      className="infocontent"
+    >
+      <div
+        className="info-view"
+      >
+        <div
+          className="infoview-container"
+        >
+          <div
+            className="bread-info"
+          >
+            <lottus-breadcrumb />
+          </div>
+          <div
+            className="info-title"
+          >
+            <h2 />
+          </div>
+          <div
+            className="info-text"
+          >
+            <p />
+          </div>
+          <div
+            className="info-price"
+          >
+            <p />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="formscontent"
+    >
+      <div
+        className="forms-container"
+      >
+        <div
+          className="forms-view"
+        >
+          <div
+            className="forms-stepper"
+          >
+            <lottus-stepper />
+          </div>
+          <div
+            className="forms-content"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

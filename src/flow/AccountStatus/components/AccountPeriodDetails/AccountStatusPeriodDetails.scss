@@ -1,0 +1,128 @@
+@import "../../../../App.scss";
+
+.accountdetails-container {
+  font-family: "Nunito", sans-serif;
+  background: map-get($palette-neutral, n00);
+  padding: 0 pixeltorem(14px);
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) and (max-width: map-get($grid-breakpoints, xl)) {
+    padding: 0;
+  }
+  h2 {
+    &.headingdetails{
+      font-size: pixeltorem(18px);
+      font-weight: 700;
+    }
+  }
+
+  p {
+    &.textdetails{
+      font-size: pixeltorem(14px);
+      padding: pixeltorem(10px) 0;
+      line-height: pixeltorem(19px);
+    }
+  }
+
+  .detail-bullets {
+    display: flex;
+    padding: pixeltorem(10px) 0 pixeltorem(41px) 0;
+
+    p {
+      font-size: pixeltorem(14px);
+      display: flex;
+      padding: 0;
+      padding-right: pixeltorem(24px);
+      &.org-p {
+        color: #f02b00;
+      }
+      &.gr-p {
+        color: #8dc881;
+      }
+      &.pr-p {
+        color: #682e8d;
+      }
+      span {
+        height: pixeltorem(14px);
+        width: pixeltorem(14px);
+        border-radius: 50%;
+        margin-right: pixeltorem(8px);
+        display: inline-block;
+        &.org-bullet {
+          background-color: #f02b00;
+        }
+        &.gr-bullet {
+          background-color: #8dc881;
+        }
+        &.pr-bullet {
+          background-color: #682e8d;
+        }
+      }
+    }
+  }
+  .accountdetails-selects {
+    width: 100%;
+    .select-details{
+      padding-bottom: pixeltorem(16px);
+      p{
+        &.textprogram{
+          font-size: pixeltorem(14px);
+          font-weight: 700;
+          padding-bottom: pixeltorem(8px)
+        }
+      }
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        width: calc(50% - #{pixeltorem(12px)});
+        padding-right: pixeltorem(12px);
+        &:nth-child(2) {
+          padding-right: 0;
+          padding-left: pixeltorem(12px);
+  
+        }
+      }
+    }
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      padding-top: pixeltorem(24px);
+      display: flex;
+    }
+  }
+
+  .accountdetails-period {
+    padding-top: pixeltorem(48px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p {
+      &.textperiod{
+        padding: pixeltorem(9px) 0;
+        &.detail-amount {
+          padding: 0;
+          font-weight: 700;
+          font-size: pixeltorem(18px);
+        }
+      }
+    }
+
+    .calendar {
+      padding: pixeltorem(9px) 0;
+      display: flex;
+      align-items: center;
+      span {
+        padding-right: pixeltorem(11px);
+      }
+    }
+  }
+
+  .accountdetails-movements {
+    padding: pixeltorem(36px) 0;
+
+    .cardmovement{
+      padding: pixeltorem(8px) 0;
+    }
+  }
+
+  .accountperioddetailserror {
+    padding-top: pixeltorem(16px);
+    padding-bottom: pixeltorem(32px);
+  }
+}

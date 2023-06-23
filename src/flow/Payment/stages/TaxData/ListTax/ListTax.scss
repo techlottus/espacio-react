@@ -1,0 +1,76 @@
+@import "../../../../../App.scss";
+
+.listtax {
+  font-family: "Nunito", sans-serif;
+  position: relative;
+  width: 100%;
+
+  .listtaxtitle {
+    font-size: pixeltorem(14px);
+    line-height: pixeltorem(20px);
+    margin-bottom: pixeltorem(18px);
+  }
+
+  .listtaxlink {
+    margin: pixeltorem(36px) 0;
+  }
+
+  .listtaxactions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      flex-direction: row;
+    }
+
+    > .listtaxaction {
+      margin-bottom: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-bottom: 0;
+
+        &:nth-child(1) {
+          margin-right: pixeltorem(24px);
+        }
+      }
+
+      &:nth-child(2) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .listtaxcards {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: pixeltorem(36px);
+
+    .listtaxcard {
+      flex: 0 0 100%;
+      margin-bottom: pixeltorem(16px);
+
+      @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+        margin-bottom: pixeltorem(24px);
+      }
+
+      &:nth-child(1) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.termsfeedback {
+  @extend .alertfeedbackcmp;
+}
+
+.feedbackalert {
+  width: 100%;
+  margin-bottom: pixeltorem(36px);
+
+  @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+    width: 50%;
+  }
+}

@@ -1,0 +1,59 @@
+@import "../../../../App.scss";
+
+.academicregistrationsubjectscontent {
+  font-family: "Nunito", sans-serif;
+
+  .academicregistrationsubjectstitle {
+    padding-bottom: pixeltorem(32px);
+    font-weight: 700;
+  }
+
+  .academicregistrationsubjectsitem {
+    padding-bottom: pixeltorem(16px);
+
+    .academicregistrationsubjectscheckbox {
+      &:not(:last-child){
+        padding-bottom: pixeltorem(8px);
+      }
+
+      &:last-child {
+        padding-bottom: pixeltorem(32px);
+      }
+    }
+
+    .academicregistrationsubjectsitemtitle {
+      font-size: pixeltorem(16px);
+      font-family: 'Nunito Bold';
+      margin: pixeltorem(16px) 0;
+    }
+
+    .academicregistrationsubjectsuploadtitle {
+      padding-top: pixeltorem(8px);
+    }
+  }
+
+  .academicregistrationsubjectsbtns {
+    margin-top: pixeltorem(48px);
+    margin-bottom: pixeltorem(120px);
+    width: 100%;
+    .academicregistrationsubjectsbtn {
+      height: 100%;
+      &:nth-child(1) {
+        margin-bottom: pixeltorem(16px);
+        @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+          margin-bottom: 0;
+        }
+      }
+    }
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      display: flex;
+      justify-content: center;
+      margin-bottom: pixeltorem(16px);
+      .academicregistrationsubjectsbtn {
+        &:first-child {
+          margin-right: pixeltorem(16px);
+        }
+      }
+    }
+  }
+}

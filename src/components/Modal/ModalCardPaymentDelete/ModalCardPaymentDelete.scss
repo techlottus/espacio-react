@@ -1,0 +1,12 @@
+@import "../../../App.scss";
+@import "../Modal.scss";
+
+.modal-cardpayment-delete {
+  @extend .modal-container;
+
+  .modalcontent {
+    .modalheader {
+      justify-content: flex-start;
+    }
+  }
+}

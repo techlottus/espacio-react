@@ -1,0 +1,53 @@
+@import "../../App.scss";
+
+.navbar {
+  position: relative;
+  .menu {
+    width: 100%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    height: 100vh;
+    background-color: map-get($palette-overlay, b-50);
+
+    @media only screen and (min-width: map-get($grid-breakpoints, m)) {
+      height: 100%;
+      background-color: transparent;
+      right: pixeltorem(16px);
+      top: pixeltorem(80px);
+      width: auto;
+      
+    }
+
+    @media only screen and (min-width: map-get($grid-breakpoints, xl)) {
+      height: 100%;
+      background-color: transparent;
+      right: pixeltorem(16px);
+      width: auto;
+      top: pixeltorem(116px);
+    }
+  }
+}
+
+.terms-view{
+  @extend .headerapp-top;
+}
+.desktop-container {
+  display: flex;
+
+  .termscontent{ 
+    width: 33.333%;
+    left:0;
+    height: 100vh;
+  }
+    .termsprivacywrap {
+      width: 66.666%;
+      background-color: map-get($palette-neutral, n05);
+    }
+  }
+
+
+.termsfeedback {
+  @extend .alertfeedbackcmp;
+}
