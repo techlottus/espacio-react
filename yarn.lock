@@ -1665,18 +1665,18 @@
   resolved "https://registry.yarnpkg.com/@lottus23/lottus-elements-utc/-/lottus-elements-utc-4.0.22.tgz#a53407d74df7c78244c3f9e6ac7866d10b0e2750"
   integrity sha512-1QUCPoatGKKf3yAJqkQ6Twb4BdT5TkzpcCyUmU8vSTTUHidcXama1ffd4ht0XF3I/5uXLLOivAyjGsCEgyXiYA==
 
-"@lottuseducation/design_system@^1.8.0-alpha.0":
-  version "1.8.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@lottuseducation/design_system/-/design_system-1.8.0-alpha.0.tgz#9266cf4da160d9bcc4e2e3ac0d38775539aacc9e"
-  integrity sha512-HPN/gkHnergbkuIPEf2LXDs0YqOSlH/LwxbhAiRkoJnTpnQPUlFxMpbeoFpUl5vOscLg3vIyxm5t25xdivH+LA==
+"@lottuseducation/design_system@^1.9.0-alpha.0":
+  version "1.9.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@lottuseducation/design_system/-/design_system-1.9.0-alpha.0.tgz#abe638a30ac2891a35bd079a9af08d6c232047ca"
+  integrity sha512-292h/YzgPAHiGr3ylHlt5R5f8zNg5w3fCnghexu78X7penWmV/rYNOjgXtqev3AcEFJVucJDdpriJIYLYU9Mdg==
   dependencies:
     classnames "^2.3.1"
     react-lottie-player "^1.5.4"
 
-"@lottuseducation/tailwind-base@^1.8.0-alpha.0":
-  version "1.8.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@lottuseducation/tailwind-base/-/tailwind-base-1.8.0-alpha.0.tgz#516a1ee8b9789061d4f87281597f12705ea91d69"
-  integrity sha512-JyLIJgl+AZ9I3mUOgt6V4bYmfxJfPa2DDzrqaK7ueXI0meoPyFJOBUe/c+UvWkPI7K8JELIcJxVNy1HTribc5w==
+"@lottuseducation/tailwind-base@^1.9.0-alpha.0":
+  version "1.9.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@lottuseducation/tailwind-base/-/tailwind-base-1.9.0-alpha.0.tgz#19f6e8304fe8c294be72a0bdeaa093c20534e95e"
+  integrity sha512-RnZQ9uh4tUwWNJ8QB7FPyTaRWuBnNOSBzaNZ8Jtz/V7qhFQR8FkdUmcEVSl5rCS5Hn1a7vAROfvGV/TY6dC3fA==
   dependencies:
     tailwindcss "^3.3.2"
 
@@ -9534,13 +9534,12 @@ react-test-renderer@^17.0.0:
     react-shallow-renderer "^16.13.1"
     scheduler "^0.20.2"
 
-react@^17.0.0:
-  version "17.0.2"
-  resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
-  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+react@^18.2.0:
+  version "18.2.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
+  integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
-    object-assign "^4.1.1"
 
 read-cache@^1.0.0:
   version "1.0.0"
