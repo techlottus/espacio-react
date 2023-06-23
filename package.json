@@ -81,8 +81,5 @@
     "enzyme-to-json": "^3.6.2",
     "postcss": "^8.4.24",
     "sonar-scanner": "^3.1.0"
-  },
-  "resolutions": {
-    "css-loader": "^5.2.4"
   }
 }
