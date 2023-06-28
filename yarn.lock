@@ -1665,18 +1665,18 @@
   resolved "https://registry.yarnpkg.com/@lottus23/lottus-elements-utc/-/lottus-elements-utc-4.0.22.tgz#a53407d74df7c78244c3f9e6ac7866d10b0e2750"
   integrity sha512-1QUCPoatGKKf3yAJqkQ6Twb4BdT5TkzpcCyUmU8vSTTUHidcXama1ffd4ht0XF3I/5uXLLOivAyjGsCEgyXiYA==
 
-"@lottuseducation/design_system@^1.9.0-alpha.0":
-  version "1.9.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@lottuseducation/design_system/-/design_system-1.9.0-alpha.0.tgz#abe638a30ac2891a35bd079a9af08d6c232047ca"
-  integrity sha512-292h/YzgPAHiGr3ylHlt5R5f8zNg5w3fCnghexu78X7penWmV/rYNOjgXtqev3AcEFJVucJDdpriJIYLYU9Mdg==
+"@lottuseducation/design_system@^1.10.0-alpha.0":
+  version "1.10.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@lottuseducation/design_system/-/design_system-1.10.0-alpha.0.tgz#b9abb078718c03be17b2cfe67288e3490f396c22"
+  integrity sha512-+KGZZqjLGPAsUhd2Vricjfk+5nN8oraRhEfYLByno3HUxZ+wt35uZ6I45FKqu9MXK3JWqbcd2pUVI6eK5RQQ+w==
   dependencies:
     classnames "^2.3.1"
     react-lottie-player "^1.5.4"
 
-"@lottuseducation/tailwind-base@^1.9.0-alpha.0":
-  version "1.9.0-alpha.0"
-  resolved "https://registry.yarnpkg.com/@lottuseducation/tailwind-base/-/tailwind-base-1.9.0-alpha.0.tgz#19f6e8304fe8c294be72a0bdeaa093c20534e95e"
-  integrity sha512-RnZQ9uh4tUwWNJ8QB7FPyTaRWuBnNOSBzaNZ8Jtz/V7qhFQR8FkdUmcEVSl5rCS5Hn1a7vAROfvGV/TY6dC3fA==
+"@lottuseducation/tailwind-base@^1.10.0-alpha.0":
+  version "1.10.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@lottuseducation/tailwind-base/-/tailwind-base-1.10.0-alpha.0.tgz#abd24ca0f0079b1fd48e69bbf4a4421f2a4554d0"
+  integrity sha512-nHrzj5N9egLl0Yd0NAJyFohmGske3hED7LemQEdMNxcbA3nZWqsZvsRFK8RpACKE376qIQH6tGs9mAuPWnnq5A==
   dependencies:
     tailwindcss "^3.3.2"
 
