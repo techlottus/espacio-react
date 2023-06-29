@@ -3,8 +3,8 @@ import * as tailwindBase from "@lottuseducation/tailwind-base";
 
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,*.js}",
-    "./node_modules/@lottuseducation/design_system/**/*.js"
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/@lottuseducation/design_system/**/*.{js,jsx,ts,tsx}"
   ],
   presets: [tailwindBase.default],
   theme: {
