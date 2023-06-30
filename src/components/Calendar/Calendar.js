@@ -7,7 +7,8 @@ import {
 import FooterApp from "../../shared/FooterApp/FooterApp";
 import HeaderApp from "../../shared/HeaderApp/HeaderApp";
 import { Breadcrumb } from "../Breadcrumb/Breadcrumb";
-import { Button } from "../Button/Button";
+import { Button } from "@lottuseducation/design_system";
+// import { Button } from "../Button/Button";
 import "./Calendar.scss";
 import { useContainerHeigh } from "../../hooks/contentHeight";
 import { notiObs } from "../../observables/notificationObs";
