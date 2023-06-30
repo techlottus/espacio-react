@@ -10,7 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        principal: ["Nunito"],
+        principal: ["Nunito Sans"],
         secondary: ["Poppins"],
         icons: ["Material Icons"],
         "icons-outlined": ["Material Icons Outlined"],
