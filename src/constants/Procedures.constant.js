@@ -429,7 +429,7 @@ export const downloadCalendar = {
   label: "Descargar",
   size: "sm",
   variant: "outlined",
-  className: "w-full"
+  className: "w-full border-primary-500 text-primary-500 focus:border-primary-500 focus:ring-primary-500 tracking-widest"
 };
 
 export const procedureCalendar = {
