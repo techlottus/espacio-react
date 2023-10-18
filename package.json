@@ -6,8 +6,8 @@
     "@lottus23/lottus-css-utc": "^1.1.1",
     "@lottus23/lottus-elements-ula": "4.0.21",
     "@lottus23/lottus-elements-utc": "^4.0.21",
-    "@lottuseducation/design_system": "^1.8.0-alpha.0",
-    "@lottuseducation/tailwind-base": "^1.8.0-alpha.0",
+    "@lottuseducation/design_system": "^1.10.0-alpha.0",
+    "@lottuseducation/tailwind-base": "^1.10.0-alpha.0",
     "@stripe/react-stripe-js": "^1.7.1",
     "@stripe/stripe-js": "^1.27.0",
     "@testing-library/jest-dom": "^5.14.1",
@@ -24,7 +24,7 @@
     "jwt-decode": "^3.1.2",
     "ngx-mask": "^13.1.1",
     "node-sass": "^6.0.1",
-    "react": "^17.0.0",
+    "react": "^18.2.0",
     "react-app-env": "^1.2.3",
     "react-cookie": "^4.1.1",
     "react-data-table-component": "^7.5.3",
@@ -39,6 +39,7 @@
     "redux-thunk": "^2.3.0",
     "remove-accents": "^0.4.2",
     "rxjs": "^7.4.0",
+    "tailwindcss": "^3.3.2",
     "web-vitals": "^1.1.2"
   },
   "scripts": {

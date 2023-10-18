@@ -58,7 +58,6 @@ export const btnCalendar = {
   variant: "outlined",
   size: "sm",
   label: texts.procedures.btnCalendar,
-  isExpand: true,
   className: "w-full border-primary-500 text-primary-500 focus:border-primary-500 focus:ring-primary-500 tracking-widest"
 };
 
@@ -67,7 +66,6 @@ export const btnConsult = {
   variant: "primary",
   size: "sm",
   label: texts.procedures.btnConsult,
-  isExpand: true,
   className: "w-full bg-primary-500 border-primary-500 hover:bg-primary-600 tracking-widest"
 };
 export const btnInfoProcedures = {
@@ -428,9 +426,10 @@ export const breadcrumbCalendar = {
 
 export const downloadCalendar = {
   ...ButtonInit,
-  title: "Descargar",
-  isExpand: true,
-  type: "outlined",
+  label: "Descargar",
+  size: "sm",
+  variant: "outlined",
+  className: "w-full border-primary-500 text-primary-500 focus:border-primary-500 focus:ring-primary-500 tracking-widest"
 };
 
 export const procedureCalendar = {
